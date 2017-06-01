@@ -7,8 +7,8 @@
 :category: 5 ways to explain bitcoin
 :slug: five-ways-to-explain-bitcoin
 :authors: Lennart Jongeneel
-:summary: Coineva Home
-:language: nl
+:summary: 5 ways to explain bitcoin
+:language: en
 
 Hello world!
 ------------
