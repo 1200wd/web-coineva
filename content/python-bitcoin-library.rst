@@ -8,7 +8,7 @@ Bitcoinlib
 :slug: python-bitcoin-library
 :authors: Lennart Jongeneel
 :summary: Python Bitcoin library with fully functional HD Wallet, connect to various services
-:language: nl
+:language: en
 
 
 Python Bitcoin Library
@@ -74,7 +74,7 @@ If succesfull a transaction ID is returned
 
 
 Mnemonic Keys
--------------
+~~~~~~~~~~~~~
 
 Allows you to use easy to remember passphrases consisting of a number of words to store private keys (BIP0039).
 You can password protect this passphrase (BIP0038), and use the HD Wallet structure to generate a almost infinite
@@ -93,7 +93,8 @@ Example: Generate a list of words passphrase and derive a private key seed
 
 
 Service providers
------------------
+~~~~~~~~~~~~~~~~~
+
 Communicates with pools of bitcoin service providers to retreive transaction, address, blockchain information.
 To push a transaction to the network. To determine optimal service fee for a transaction. Or to update your
 wallet's balance.
@@ -108,7 +109,7 @@ Example: Get estimated transactionfee in sathosis per Kb for confirmation within
 
 
 Implements the following Bitcoin Improvement Proposals
-------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 - Hierarchical Deterministic Wallets (BIP0032)
 - Passphrase-protected private key (BIP0038)
 - Mnemonic code for generating deterministic keys (BIP0039)
@@ -125,7 +126,7 @@ Install with pip
 
 
 Package dependencies
---------------------
+~~~~~~~~~~~~~~~~~~~~
 
 Required Python Packages, are automatically installed upon installing bitcoinlib:
 
@@ -136,17 +137,17 @@ Required Python Packages, are automatically installed upon installing bitcoinlib
 * sqlalchemy
 
 Python development packages
----------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ``sudo apt install python-dev python3-dev``
 
 To install OpenSSL development package on Debian, Ubuntu or their derivatives
------------------------------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ``sudo apt install libssl-dev``
 
 To install OpenSSL development package on Fedora, CentOS or RHEL
-----------------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ``sudo yum install openssl-devel``
 

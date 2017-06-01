@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Lennart Jongeneel'
 SITENAME = u'Coineva'
-SITEURL = ''
+SITEURL = 'http://localhost:8000'
 SITETITLE = 'Coineva'
 SITESUBTITLE = 'Cryptocurrency Code Factory'
 SITEDESCRIPTION = 'Foo Bar\'s Thoughts and Writings'
@@ -26,14 +26,15 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-USE_FOLDER_AS_CATEGORY = False
+USE_FOLDER_AS_CATEGORY = True
 MAIN_MENU = True
 HOME_HIDE_TAGS = True
 
 # Blogroll
-LINKS = (('5 ways to explain bitcoin', 'five-ways-to-explain-bitcoin.html'),
-         ('How to create a wallet', 'how-to-create-a-wallet.html'),
-         ('BitcoinLib', 'python-bitcoin-library.html'),)
+LINKS = (('Bitcoin Library', '/python-bitcoin-library.html'),
+         ('Bulk Paper Wallets', '/python-bulk-paper-wallets.html'),
+         ('5 ways to explain bitcoin', '/five-ways-to-explain-bitcoin.html'),
+         ('How to create a wallet', '/how-to-create-a-wallet.html'),)
 
 MENUITEMS = (('Archives', '/archives.html'),
              ('Categories', '/categories.html'),
