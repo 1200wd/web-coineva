@@ -69,3 +69,4 @@ target/
 # Pelican
 output/
 content/generated/
+themes/
