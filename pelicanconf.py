@@ -31,10 +31,13 @@ MAIN_MENU = True
 HOME_HIDE_TAGS = True
 
 # Blogroll
-LINKS = (('Bitcoin Library', '/python-bitcoin-library.html'),
-         ('Bulk Paper Wallets', '/python-bulk-paper-wallets.html'),
+LINKS = (('What to do with my paper wallet?', '/what-to-do-with-my-paper-wallet.html'),
          ('5 ways to explain bitcoin', '/five-ways-to-explain-bitcoin.html'),
-         ('How to create a wallet', '/how-to-create-a-wallet.html'),)
+         ('why bitcoin?', '/why-bitcoin.html'),
+         ('-', '#'),
+         ('Categories', '/categories.html'),
+         ('-', '#'),
+         ('bitcoinlib', '/python-bitcoin-library.html'),)
 
 MENUITEMS = (('Archives', '/archives.html'),
              ('Categories', '/categories.html'),

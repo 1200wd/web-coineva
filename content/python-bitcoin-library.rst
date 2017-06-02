@@ -33,13 +33,6 @@ Documentation
 Read the full documentation at: http://bitcoinlib.readthedocs.io/
 
 
-Disclaimer
-----------
-
-This library is still in development, please use at your own risk and test sufficiently before using it in a
-production environment. Support for Litecoin and Dash is just for read only wallet, not for creating or
-sending transactions.
-
 
 Features
 --------
@@ -117,39 +110,12 @@ Implements the following Bitcoin Improvement Proposals
 - Multi-Account Hierarchy for Deterministic Wallets (BIP0044)
 
 
-Installation
-------------
+Implementations
+---------------
 
-Install with pip
-
-``pip install bitcoinlib``
-
-
-Package dependencies
-~~~~~~~~~~~~~~~~~~~~
-
-Required Python Packages, are automatically installed upon installing bitcoinlib:
-
-* ecdsa
-* pbkdf2
-* pycrypto
-* scrypt
-* sqlalchemy
-
-Python development packages
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-``sudo apt install python-dev python3-dev``
-
-To install OpenSSL development package on Debian, Ubuntu or their derivatives
+Currently this python bitcoin library is used in the following implementation
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-``sudo apt install libssl-dev``
-
-To install OpenSSL development package on Fedora, CentOS or RHEL
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-``sudo yum install openssl-devel``
+- Bulk Paper Wallets - https://github.com/1200wd/bulkpaperwallets
 
 
 References
