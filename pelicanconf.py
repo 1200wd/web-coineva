@@ -4,10 +4,11 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Lennart Jongeneel'
 SITENAME = u'Coineva'
-SITEURL = 'http://localhost:8000'
+# SITEURL = 'http://localhost:8000'
+SITEURL = 'http://coineva.com'
 SITETITLE = 'Coineva'
 SITESUBTITLE = 'Cryptocurrency Code Factory'
-SITEDESCRIPTION = 'Foo Bar\'s Thoughts and Writings'
+SITEDESCRIPTION = 'bitcoin stuff'
 SITELOGO = SITEURL + '/images/Peter-Behrens-Alphabet-1908-C.png'
 # FAVICON = SITEURL + '/images/favicon.ico'
 PYGMENTS_STYLE = 'monokai'
