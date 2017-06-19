@@ -4,8 +4,8 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Lennart Jongeneel'
 SITENAME = u'Coineva'
-SITEURL = 'http://localhost:8000'
-# SITEURL = 'http://coineva.com'
+# SITEURL = 'http://localhost:8000'
+SITEURL = 'http://coineva.com'
 SITETITLE = 'Coineva'
 SITESUBTITLE = 'Cryptocurrency Code Factory'
 SITEDESCRIPTION = 'bitcoin stuff'
