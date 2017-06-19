@@ -13,6 +13,9 @@ Create an Electrum Wallet
 
 .. _create-electrum-wallet:
 
+Installation and setup
+----------------------
+
 Go to http://electrum.org and download the easy installation software for your platform,
 i.e.: Windows, Android, Linux.
 
@@ -58,6 +61,10 @@ password you will able to recreate your wallet with the 12-word passphrase.
    :align: center
 
 Now your wallet is setup and ready to transfer the bitcoins from your paper wallet.
+
+
+Sweep paper wallet
+------------------
 
 Go to the Wallets menu and select 'Private Keys' and the 'Sweep'
 
@@ -110,3 +117,14 @@ Now while have your bitcoins on your PC you can
 or
 `install a Mycelium Wallet <{filename}/create-mycelium-wallet.rst>`_
 to be able to scan QR-codes for easier payments.
+
+
+Security
+--------
+
+Your wallet is protected with a password and is secured against loss with writen backups of
+the private key. However if your computer has bad security and anyone gains access and is capable
+of installing software they can gain access to your bitcoins. So please update regularly, choose strong passwords,
+use a good virus scanner and firewall. This is not the place to elaborate too much about security, there is
+`more security information <https://antivirus.comodo.com/blog/computer-safety/5-simple-steps-protect-pc/>`_
+out there.

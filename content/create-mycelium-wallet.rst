@@ -13,6 +13,9 @@ Create Mycelium Wallet
 
 .. _create-mycelium-wallet:
 
+Installation and setup
+----------------------
+
 Go to Google Play and install the Mycelium bitcoin wallet.
 
 .. image:: images/mycelium-download.png
@@ -39,6 +42,10 @@ to scan the Private key from your paper wallet.
    :width: 400px
    :alt: Scan private key with Mycelium from 'cold storage'
    :align: center
+
+
+Transfer from paper wallet
+--------------------------
 
 Now you are ready to create the transaction. Be sure to select an address from you own wallet.
 You should see a warning: You are sending a payment to your own address.

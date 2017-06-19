@@ -28,13 +28,13 @@ Decision Tree
 Option 1: Create an online wallet and sell
 ------------------------------------------
 
-There are several online wallets out there and numurous places where you can sell
-your bitcoins. Follow this guide on how to
-`Create Blockchain.info Wallet <{filename}/create-blockchain-info-wallet.rst>`_
+There are several online wallets out there and numerous places where you can sell
+your bitcoins. Follow this guide on
+`How to create Blockchain.info Wallet <{filename}/create-blockchain-info-wallet.rst>`_
 . It is easy to setup, requires no ID verification and it is safe.
 
 Once you have made the transfer from your paper wallet to the online wallet you can
-`sell your bitcoins on Bitonic <|filename|sell-bitcoins-on-bitonic.rst>`_
+`Sell your bitcoins on Bitonic <|filename|sell-bitcoins-on-bitonic.rst>`_
 and they will be transferred in Euro's within 1 business day to any IBAN bank account.
 
 
@@ -72,10 +72,11 @@ Option 4: Install Electrum on your PC
 -------------------------------------
 
 If you have received a larger amount of bitcoins or you want to learn and experiment more take
-a look at the guide
-`How to Install the Electrum Wallet <{filename}/create-electrum-wallet.rst>`_
+a look at the guide `How to Install the Electrum Wallet <{filename}/create-electrum-wallet.rst>`_
 on your PC.
 
+With this wallet you have a lot of control and there is broad range of functionality but it
+still safe to use.
 
 Or any combination of the options above
 ---------------------------------------
