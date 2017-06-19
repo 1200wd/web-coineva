@@ -1,11 +1,16 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
+
+import socket
 from __future__ import unicode_literals
 
 AUTHOR = u'Lennart Jongeneel'
 SITENAME = u'Coineva'
-# SITEURL = 'http://localhost:8000'
-SITEURL = 'http://coineva.com'
+
+if socket.gethostname() == 'talisman':
+    SITEURL = 'http://localhost:8000'
+else:
+    SITEURL = 'http://coineva.com'
 SITETITLE = 'Coineva'
 SITESUBTITLE = 'Cryptocurrency Code Factory'
 SITEDESCRIPTION = 'bitcoin stuff'
