@@ -4,7 +4,7 @@ Bitcoinlib
 :date: 2017-06-01 14:36
 :modified: 2017-06-01 14:36
 :tags: bitcoin, bitcoinlib, python
-:category: bitcoinlib
+:category: BitcoinLib
 :slug: python-bitcoin-library
 :authors: Lennart Jongeneel
 :summary: Python Bitcoin library with fully functional HD Wallet, connect to various services
@@ -14,7 +14,7 @@ Bitcoinlib
 Python Bitcoin Library
 ----------------------
 
-Bitcoin and other Cryptocurrencies Library for Python
+Bitcoin and other Crypto currencies Library for Python
 
 .. image:: https://travis-ci.org/1200wd/bitcoinlib.svg?branch=master
     :target: https://travis-ci.org/1200wd/bitcoinlib
@@ -58,7 +58,7 @@ Example: Create wallet and generate new key to receive bitcoins
    '1Fo7STj6LdRhUuD1AiEsHpH65pXzraGJ9j'
 
 When your wallet received a payment and has unspent transaction outputs, you can send bitcoins easily.
-If succesfull a transaction ID is returned
+If successful a transaction ID is returned
 
 .. code-block:: python
 
@@ -92,7 +92,7 @@ Communicates with pools of bitcoin service providers to retreive transaction, ad
 To push a transaction to the network. To determine optimal service fee for a transaction. Or to update your
 wallet's balance.
 
-Example: Get estimated transactionfee in sathosis per Kb for confirmation within 5 blocks
+Example: Get estimated transaction fee in sathosis per Kb for confirmation within 5 blocks
 
 .. code-block:: python
 

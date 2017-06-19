@@ -4,8 +4,8 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Lennart Jongeneel'
 SITENAME = u'Coineva'
-# SITEURL = 'http://localhost:8000'
-SITEURL = 'http://coineva.com'
+SITEURL = 'http://localhost:8000'
+# SITEURL = 'http://coineva.com'
 SITETITLE = 'Coineva'
 SITESUBTITLE = 'Cryptocurrency Code Factory'
 SITEDESCRIPTION = 'bitcoin stuff'
@@ -33,12 +33,13 @@ HOME_HIDE_TAGS = True
 
 # Blogroll
 LINKS = (('What to do with my paper wallet?', '/what-to-do-with-my-paper-wallet.html'),
-         ('5 ways to explain bitcoin', '/five-ways-to-explain-bitcoin.html'),
-         ('why bitcoin?', '/why-bitcoin.html'),
+         # ('5 ways to explain bitcoin', '/five-ways-to-explain-bitcoin.html'),
+         # ('why bitcoin?', '/why-bitcoin.html'),
          ('-', '#'),
          ('Categories', '/categories.html'),
          ('-', '#'),
-         ('bitcoinlib', '/python-bitcoin-library.html'),)
+         ('bitcoinlib', '/python-bitcoin-library.html'),
+         ('bulkpaperwallets', 'https://github.com/1200wd/bulkpaperwallets'))
 
 MENUITEMS = (('Archives', '/archives.html'),
              ('Categories', '/categories.html'),
