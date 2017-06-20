@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 
-import socket
 from __future__ import unicode_literals
+import socket
 
 AUTHOR = u'Lennart Jongeneel'
 SITENAME = u'Coineva'
