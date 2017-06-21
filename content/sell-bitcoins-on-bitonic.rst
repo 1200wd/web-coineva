@@ -11,6 +11,8 @@ How to sell bitcoins on Bitonic
 :language: en
 
 
+.. _sell-bitcoins-on-bitonic:
+
 Login to your `Blockchain.info Wallet <{filename}/create-blockchain-info-wallet.rst>`_
 or open another wallet you own and go to https://bitonic.nl
 

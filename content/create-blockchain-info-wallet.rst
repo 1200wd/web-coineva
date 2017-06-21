@@ -20,36 +20,19 @@ Go to https://blockchain.info/wallet/ and create an account with your email and 
    :alt: Create wallet on Blockchain.info
    :align: center
 
-Now go to security settings to verify your email and backup your passphrase.
+Now go to security settings to verify your email. You can disable TOR if you do not use it.
+
+Next backup your passphrase by writing down the 12 words on a piece of paper and store them
+in a safe place. You can restore you wallet in case you have forgotten your password,
+or if Blockchain.info might disappear. But anyone who
+finds this paper can also use your bitcoins.
 
 .. image:: images/blockchain-info-security-settings.png
    :width: 1200px
    :alt: Blockchain.info security settings
    :align: center
 
-To import your paper wallet go to the settings menu and select addresses. Then click on
-import address and enter your private key. The private key will be validated and the funds
-from your paper wallet will be transferred to the Blockchain.info wallet. If you want to
-send coins from your Blockchain wallet right away, use priority fee, otherwise you might have
-to wait a couple or hours.
-
-.. image:: images/blockchain-info-import-private-key.png
-   :width: 1200px
-   :alt: Transfer bitcoins from your paper wallet to the Blockchain.info wallet
-   :align: center
-
-Please note: Normally never enter your private key on any website! However blockchain.info is well
-known and established, and their website is set up in such a way that your private keys are
-not send to their servers. However for larger amount of bitcoins and / or long term storage I
-would advice to use a local hardware or software wallet.
-
-.. image:: images/blockchain-info-received-from-paper-wallet.png
-   :width: 1200px
-   :alt: Received paper wallet's bitcoins into Blockchain.info wallet
-   :align: center
-
-Congratulations, you have now transferred the bitcoins to your Blockchain.info wallet.
-
-You can leave your bitcoins there and use them once in a while or you could
-`Sell your bitcoins on Bitonic <|filename|sell-bitcoins-on-bitonic.rst>`_
+Thats all, your wallet is ready! You can continue to
+`import a paper wallet <{filename}/paper-wallet-import-blockchain-info.rst>`_
+or buy some bitcoins.
 

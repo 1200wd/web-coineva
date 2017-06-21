@@ -20,7 +20,7 @@ Decision Tree
 -------------
 
 .. image:: images/decision-tree-paper-wallet.png
-   :width: 1200px
+   :width: 600px
    :alt: Decision tree for your paper wallet
    :align: center
 
@@ -33,7 +33,8 @@ your bitcoins. Follow this guide on
 `How to create Blockchain.info Wallet <{filename}/create-blockchain-info-wallet.rst>`_
 . It is easy to setup, requires no ID verification and it is safe.
 
-Once you have made the transfer from your paper wallet to the online wallet you can
+Once you have `made the transfer from your paper wallet <|filename|paper-wallet-import-blockchain-info.rst>`_
+to the online wallet you can
 `Sell your bitcoins on Bitonic <|filename|sell-bitcoins-on-bitonic.rst>`_
 and they will be transferred in Euro's within 1 business day to any IBAN bank account.
 
