@@ -7,7 +7,7 @@ Import a paper wallet into Mycelium
 :category: Paper Wallets
 :slug: paper-wallet-import-mycelium
 :authors: Lennart Jongeneel
-:summary: How to import a paper wallet into your Mycelium wallet
+:summary: How to import a paper wallet into Mycelium
 :language: en
 
 

@@ -7,7 +7,7 @@ Create Mycelium Wallet
 :category: Paper Wallets
 :slug: create-mycelium-wallet
 :authors: Lennart Jongeneel
-:summary: Step-by-step instruction guide to create a Mycelium wallet and transfer funds from your paper wallet
+:summary: Step-by-step instruction guide to create a Mycelium wallet
 :language: en
 
 
