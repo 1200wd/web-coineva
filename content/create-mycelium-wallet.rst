@@ -4,7 +4,7 @@ Create Mycelium Wallet
 :date: 2017-06-01 14:36
 :modified: 2017-06-01 14:36
 :tags: bitcoin, wallets
-:category: Paper Wallets
+:category: Software Wallets
 :slug: create-mycelium-wallet
 :authors: Lennart Jongeneel
 :summary: Step-by-step instruction guide to create a Mycelium wallet

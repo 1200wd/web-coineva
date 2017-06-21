@@ -4,7 +4,7 @@ Create a Blockchain.info Wallet
 :date: 2017-06-01 14:36
 :modified: 2017-06-01 14:36
 :tags: bitcoin, wallets
-:category: Paper Wallets
+:category: Online Wallets
 :slug: create-blockchain-info-wallet
 :authors: Lennart Jongeneel
 :summary: Step-by-step instruction guide to create Blockchain.info wallet and transfer funds from your paper wallet
