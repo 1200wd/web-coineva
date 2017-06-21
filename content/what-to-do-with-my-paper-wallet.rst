@@ -30,12 +30,12 @@ Option 1: Create an online wallet and sell
 
 There are several online wallets out there and numerous places where you can sell
 your bitcoins. Follow this guide on
-`How to create Blockchain.info Wallet <{filename}/create-blockchain-info-wallet.rst>`_
+`how to create Blockchain.info Wallet <{filename}/create-blockchain-info-wallet.rst>`_
 . It is easy to setup, requires no ID verification and it is safe.
 
 Once you have `made the transfer from your paper wallet <|filename|paper-wallet-import-blockchain-info.rst>`_
 to the online wallet you can
-`Sell your bitcoins on Bitonic <|filename|sell-bitcoins-on-bitonic.rst>`_
+`sell your bitcoins on Bitonic <|filename|sell-bitcoins-on-bitonic.rst>`_
 and they will be transferred in Euro's within 1 business day to any IBAN bank account.
 
 
@@ -65,15 +65,16 @@ Installing a software wallet on your phone is easy, and the Mycelium wallet is v
 Keep in mind that most phones are easy to hack so do not keep more bitcoins on there than you
 would keep in your pocket wallet.
 
-Follow this guide on `How to create a Mycelium Wallet <{filename}/create-mycelium-wallet.rst>`_
-and transfer the funds from your paper wallet to Mycelium.
+Follow this guide on `how to create a Mycelium Wallet <{filename}/create-mycelium-wallet.rst>`_
+and then transfer the funds from
+`your paper wallet to Mycelium <{filename}/paper-wallet-import-mycelium.rst>`_.
 
 
 Option 4: Install Electrum on your PC
 -------------------------------------
 
 If you have received a larger amount of bitcoins or you want to learn and experiment more take
-a look at the guide `How to Install the Electrum Wallet <{filename}/create-electrum-wallet.rst>`_
+a look at the guide `how to Install the Electrum Wallet <{filename}/create-electrum-wallet.rst>`_
 on your PC.
 
 With this wallet you have a lot of control and there is broad range of functionality but it

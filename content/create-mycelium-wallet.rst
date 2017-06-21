@@ -34,39 +34,6 @@ You have created a bitcoin wallet with a HD account, go to the second tab to ope
    :alt: Your Mycelium HD Wallet account
    :align: center
 
-Continue to import your private wallet. Select 'Cold storage' (= Paper wallets)
-from the main menu and then select 'QR code'
-to scan the Private key from your paper wallet.
-
-.. image:: images/mycelium-your-account.png
-   :width: 400px
-   :alt: Scan private key with Mycelium from 'cold storage'
-   :align: center
-
-
-Transfer from paper wallet
---------------------------
-
-Now you are ready to create the transaction. Be sure to select an address from you own wallet.
-You should see a warning: You are sending a payment to your own address.
-
-.. image:: images/mycelium-create-transaction.png
-   :width: 400px
-   :alt: Scan private key with Mycelium from 'cold storage'
-   :align: center
-
-It is advised to take all the bitcoins of the paper wallet in one transaction. To do
-this click on the keyboard and select 'max'. In case you are not in a hurry you can
-select 'low-prio' from the miner fee selection.
-
-.. image:: images/mycelium-create-transaction-max-amount.png
-   :width: 400px
-   :alt: Sweep complete cold storage / paper wallet
-   :align: center
-
-Now you are ready to spend your bitcoins!
-
-.. image:: images/mycelium-transaction-done.png
-   :width: 400px
-   :alt: Waiting to confirm...
-   :align: center
+Your wallet is ready to use, you can now
+`import a paper wallet into Mycelium <{filename}/paper-wallet-import-mycelium.rst>`_
+or buy some bitcoins.

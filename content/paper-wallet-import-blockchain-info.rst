@@ -1,5 +1,5 @@
-Create a Blockchain.info Wallet
-===============================
+Import a paper wallet into Blockchain.info
+==========================================
 
 :date: 2017-06-01 14:36
 :modified: 2017-06-01 14:36
@@ -40,4 +40,4 @@ would advice to use a local hardware or software wallet.
 Congratulations, you have now transferred the bitcoins to your Blockchain.info wallet.
 
 You can leave your bitcoins there and use them once in a while or you could
-`Sell your bitcoins on Bitonic <{filename}/sell-bitcoins-on-bitonic.rst>`_
+`sell your bitcoins on Bitonic <{filename}/sell-bitcoins-on-bitonic.rst>`_
