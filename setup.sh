@@ -6,6 +6,8 @@ virtualenv ~/.virtualenvs/web1200
 # Install required python modules
 ~/.virtualenvs/web1200/bin/pip install pelican markdown
 
+cp update.sh update.local.sh
+
 mkdir themes
 cd themes
 
