@@ -9,4 +9,4 @@ virtualenv ~/.virtualenvs/web1200
 mkdir themes
 cd themes
 
-git clone https://github.com/1200wd/Flex.git
+git clone https://github.com/1200wd/pelican-themes-tuxlite-tbs.git
