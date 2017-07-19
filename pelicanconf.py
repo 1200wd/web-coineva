@@ -35,20 +35,18 @@ AUTHOR_FEED_RSS = None
 USE_FOLDER_AS_CATEGORY = True
 MAIN_MENU = True
 HOME_HIDE_TAGS = True
+DISPLAY_PAGES_ON_MENU = False
 
 # Blogroll
 LINKS = (('What to do with my paper wallet?', '/what-to-do-with-my-paper-wallet.html'),
          # ('5 ways to explain bitcoin', '/five-ways-to-explain-bitcoin.html'),
          # ('why bitcoin?', '/why-bitcoin.html'),
-         ('-', '#'),
-         ('Categories', '/categories.html'),
-         ('-', '#'),
          ('bitcoinlib', '/python-bitcoin-library.html'),
          ('bulkpaperwallets', 'https://github.com/1200wd/bulkpaperwallets'))
 
-MENUITEMS = (('Archives', '/archives.html'),
-             ('Categories', '/categories.html'),
-             ('Tags', '/tags.html'),)
+# MENUITEMS = (('Archives', '/archives.html'),
+#              ('Categories', '/categories.html'),
+#              ('Tags', '/tags.html'),)
 
 # Social widget
 SOCIAL = (('linkedin', 'https://www.linkedin.com/company-beta/8098420/'),
@@ -61,5 +59,5 @@ DEFAULT_PAGINATION = 10
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
-THEME = "themes/Flex"
-SITESUBTITLES = ('Coineva', 'cryptocurrency factory...')
+THEME = "themes/pelican-themes-tuxlite-tbs"
+SITESUBTITLES = ('Coineva', 'cryptocurrency code factory')

@@ -22,7 +22,7 @@ from your paper wallet will be transferred to the Blockchain.info wallet. If you
 send coins from your Blockchain wallet right away, use priority fee, otherwise you might have
 to wait a couple or hours.
 
-.. image:: images/blockchain-info-import-private-key.png
+.. image:: /images/blockchain-info-import-private-key.png
    :width: 1200px
    :alt: Transfer bitcoins from your paper wallet to the Blockchain.info wallet
    :align: center
@@ -32,7 +32,7 @@ known and established, and their website is set up in such a way that your priva
 not send to their servers. However for larger amount of bitcoins and / or long term storage I
 would advice to use a local hardware or software wallet.
 
-.. image:: images/blockchain-info-received-from-paper-wallet.png
+.. image:: /images/blockchain-info-received-from-paper-wallet.png
    :width: 1200px
    :alt: Received paper wallet's bitcoins into Blockchain.info wallet
    :align: center

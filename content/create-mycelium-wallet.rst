@@ -18,7 +18,7 @@ Installation and setup
 
 Go to Google Play and install the Mycelium bitcoin wallet.
 
-.. image:: images/mycelium-download.png
+.. image:: /images/mycelium-download.png
    :width: 400px
    :alt: Download and install Mycelium app
    :align: center
@@ -29,7 +29,7 @@ a safe place. This key can be used to restore your bitcoins in case your phone i
 
 You have created a bitcoin wallet with a HD account, go to the second tab to open your account.
 
-.. image:: images/mycelium-your-account.png
+.. image:: /images/mycelium-your-account.png
    :width: 400px
    :alt: Your Mycelium HD Wallet account
    :align: center

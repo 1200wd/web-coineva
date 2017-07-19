@@ -15,7 +15,7 @@ Create a Blockchain.info Wallet
 
 Go to https://blockchain.info/wallet/ and create an account with your email and password.
 
-.. image:: images/blockchain-info-create.png
+.. image:: /images/blockchain-info-create.png
    :width: 1200px
    :alt: Create wallet on Blockchain.info
    :align: center
@@ -27,7 +27,7 @@ in a safe place. You can restore you wallet in case you have forgotten your pass
 or if Blockchain.info might disappear. But anyone who
 finds this paper can also use your bitcoins.
 
-.. image:: images/blockchain-info-security-settings.png
+.. image:: /images/blockchain-info-security-settings.png
    :width: 1200px
    :alt: Blockchain.info security settings
    :align: center

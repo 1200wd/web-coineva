@@ -20,7 +20,7 @@ continue to import your paper wallet. Select 'Cold storage' (= Paper wallets)
 from the main menu and then select 'QR code'
 to scan the Private key from your paper wallet.
 
-.. image:: images/mycelium-your-account.png
+.. image:: /images/mycelium-your-account.png
    :width: 400px
    :alt: Scan private key with Mycelium from 'cold storage'
    :align: center
@@ -28,7 +28,7 @@ to scan the Private key from your paper wallet.
 Now you are ready to create the transaction. Be sure to select an address from you own wallet.
 You should see a warning: You are sending a payment to your own address.
 
-.. image:: images/mycelium-create-transaction.png
+.. image:: /images/mycelium-create-transaction.png
    :width: 400px
    :alt: Scan private key with Mycelium from 'cold storage'
    :align: center
@@ -37,7 +37,7 @@ It is advised to take all the bitcoins of the paper wallet in one transaction. T
 this click on the keyboard and select 'max'. In case you are not in a hurry you can
 select 'low-prio' from the miner fee selection.
 
-.. image:: images/mycelium-create-transaction-max-amount.png
+.. image:: /images/mycelium-create-transaction-max-amount.png
    :width: 400px
    :alt: Sweep complete cold storage / paper wallet
    :align: center
@@ -46,7 +46,7 @@ Your transaction is now being processed and shows up in you wallet as pending.
 It might take a couple of hours or more if you have selected low priority fee,
 but you can already use your bitcoins.
 
-.. image:: images/mycelium-transaction-done.png
+.. image:: /images/mycelium-transaction-done.png
    :width: 400px
    :alt: Waiting to confirm...
    :align: center

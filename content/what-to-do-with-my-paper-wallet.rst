@@ -19,7 +19,7 @@ with them, but whatever you do please keep this in mind:
 Decision Tree
 -------------
 
-.. image:: images/decision-tree-paper-wallet.png
+.. image:: /images/decision-tree-paper-wallet.png
    :width: 600px
    :alt: Decision tree for your paper wallet
    :align: center

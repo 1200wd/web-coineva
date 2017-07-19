@@ -20,7 +20,7 @@ Fill in the amount of bitcoins you would like to sell and the return bitcoin add
 The bitcoin address can be same address as you send the bitcoins from, or you can request
 a new address from your wallet if you are concerned about privacy.
 
-.. image:: images/bitonic-sell-bitcoins.png
+.. image:: /images/bitonic-sell-bitcoins.png
    :width: 1200px
    :alt: How to sell bitcoins on Bitonic.nl?
    :align: center
@@ -30,7 +30,7 @@ If you would like to sell the full amount please do not forget to deduct the tra
 So transfer the full amount of your wallet minus the expected transaction fees. You can
 find the expected transaction fee when you click on 'Send' in the Blockchain.info wallet.
 
-.. image:: images/blockchain-info-import-private-key.png
+.. image:: /images/blockchain-info-import-private-key.png
    :width: 1200px
    :alt: Transfer bitcoins from your paper wallet to the Blockchain.info wallet
    :align: center
@@ -40,7 +40,7 @@ Now you will receive a bitcoin address and you can transfer the bitcoins from yo
 to Bitonic. You do not need to include a priority fee, as a standard fee is enough to get
 your transaction through in a couple of hours normally.
 
-.. image:: images/bitonic-sold-bitcoins.png
+.. image:: /images/bitonic-sold-bitcoins.png
    :width: 1200px
    :alt: Bitcoins sold on Bitonic.nl
    :align: center

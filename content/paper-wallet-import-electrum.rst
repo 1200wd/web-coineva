@@ -19,7 +19,7 @@ Open your wallet and follow the instruction
 to transfer the funds from your paper wallet.
 Go to the Wallets menu and select 'Private Keys' and the 'Sweep'
 
-.. image:: images/electrum-private-key-sweep.png
+.. image:: /images/electrum-private-key-sweep.png
    :width: 1200px
    :alt: Wallet menu - Private key - Sweep
    :align: center
@@ -28,7 +28,7 @@ Now enter the private key. Yes you have to type it over from your paper wallet.
 Another option is to scan the QR code with your webcam or phone and send it to your PC,
 but this is not very safe.
 
-.. image:: images/electrum-sweep-private-keys.png
+.. image:: /images/electrum-sweep-private-keys.png
    :width: 1200px
    :alt: Wallet menu - Private key - Sweep
    :align: center
@@ -38,7 +38,7 @@ transfer the bitcoins from your paper wallet to Electrum.
 
 Click on Broadcast to push the transaction to the network and start the transfer.
 
-.. image:: images/electrum-sweep-transaction-send.png
+.. image:: /images/electrum-sweep-transaction-send.png
    :width: 1200px
    :alt: Broadcast Sweep Transaction
    :align: center
@@ -48,7 +48,7 @@ know is wait, it can take from a couple of minutes to hours -depending on the fe
 you transaction is confirmed. You do not have to stay online for the transfer,
 you can safely exit your wallet.
 
-.. image:: images/electrum-sweep-transaction-send.png
+.. image:: /images/electrum-sweep-transaction-send.png
    :width: 1200px
    :alt: Sweep transaction unconfirmed
    :align: center
@@ -57,7 +57,7 @@ The bitcoin blockchain where all bitcoin transactions are stored is public, so c
 to a block explorer website such as https://blockchain.info and search for your
 transaction.
 
-.. image:: images/electrum-view-on-blockchain.png
+.. image:: /images/electrum-view-on-blockchain.png
    :width: 1200px
    :alt: Sweep transaction unconfirmed
    :align: center
