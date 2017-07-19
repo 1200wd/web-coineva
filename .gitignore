@@ -71,3 +71,4 @@ output/
 content/generated/
 themes/
 update.local.sh
+pelican-plugins/

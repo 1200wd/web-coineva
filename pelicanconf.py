@@ -61,3 +61,10 @@ DEFAULT_PAGINATION = 10
 
 THEME = "themes/pelican-themes-tuxlite-tbs"
 SITESUBTITLES = ('Coineva', 'cryptocurrency code factory')
+
+PLUGIN_PATHS = ['pelican-plugins']
+PLUGINS = [u"disqus_static"]
+
+DISQUS_SITENAME = u'coineva'
+DISQUS_SECRET_KEY = u''
+DISQUS_PUBLIC_KEY = u''
