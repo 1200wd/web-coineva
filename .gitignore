@@ -70,3 +70,4 @@ target/
 output/
 content/generated/
 themes/
+update.local.sh
