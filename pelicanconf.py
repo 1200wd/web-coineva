@@ -7,7 +7,7 @@ import socket
 AUTHOR = u'Lennart Jongeneel'
 SITENAME = u'Coineva'
 
-if socket.gethostname() == 'talisman':
+if socket.gethostname() in ['talisman', 'machine']:
     SITEURL = 'http://localhost:8000'
 else:
     SITEURL = 'http://coineva.com'
@@ -63,7 +63,8 @@ THEME = "themes/pelican-themes-tuxlite-tbs"
 SITESUBTITLES = ('Coineva', 'cryptocurrency code factory')
 
 PLUGIN_PATHS = ['pelican-plugins']
-PLUGINS = [u"disqus_static"]
+if socket.gethostname() not in ['talisman', 'machine']:
+    PLUGINS = [u"disqus_static"]
 
 DISQUS_SITENAME = u'coineva'
 DISQUS_SECRET_KEY = u''
