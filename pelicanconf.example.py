@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 import socket
 
 AUTHOR = u'Lennart Jongeneel'
-SITENAME = u'Coineva'
+SITENAME = u'Coineva - Cryptocurrency Code Factory'
 
 if socket.gethostname() == 'talisman':
     SITEURL = 'http://localhost:8000'
@@ -49,9 +49,8 @@ LINKS = (('What to do with my paper wallet?', '/what-to-do-with-my-paper-wallet.
 #              ('Tags', '/tags.html'),)
 
 # Social widget
-SOCIAL = (('linkedin', 'https://www.linkedin.com/company-beta/8098420/'),
-          ('github', 'https://github.com/1200wd'),
-          ('twitter', 'https://twitter.com/1200wd'),
+SOCIAL = (('github', 'https://github.com/1200wd'),
+          ('bitcoinlib', 'http://bitcoinlib.readthedocs.io/en/latest/'),
           ('rss', 'feeds/all.atom.xml'))
 
 DEFAULT_PAGINATION = 10
@@ -60,11 +59,11 @@ DEFAULT_PAGINATION = 10
 #RELATIVE_URLS = True
 
 THEME = "themes/pelican-themes-tuxlite-tbs"
-SITESUBTITLES = ('Coineva', 'cryptocurrency code factory')
+SITESUBTITLES = ('Coineva- Cryptocurrency Code Factory')
 
 PLUGIN_PATHS = ['pelican-plugins']
 PLUGINS = [u"disqus_static"]
 
 DISQUS_SITENAME = u'coineva'
-DISQUS_SECRET_KEY = u'qkcQOndFztjC6k7SxYYWiOEBrKlJYFnaeIOCmYX7wN8a9rzl5KBndSycEHCSLLOv'
-DISQUS_PUBLIC_KEY = u'qdXg9adNv1duVH8hS3UY7193ytG4JSHaiEQOmhaReZcxvCxoFDCayP9lHBfWg5sn'
+DISQUS_SECRET_KEY = u''
+DISQUS_PUBLIC_KEY = u''
