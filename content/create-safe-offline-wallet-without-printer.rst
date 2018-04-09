@@ -11,6 +11,8 @@ Guide: Create a safe offline wallet without printer
 :language: en
 
 
+.. _create-safe-offline-wallet-without-printer:
+
 What's wrong with a printer?
 ----------------------------
 
@@ -23,9 +25,13 @@ So if you print an offline 'super secure' paper wallet it could be intercepted a
 finished or the funds could disappear after 5 years when your dump your printer in the garbage and someone is so
 clever to check the hard drive in the printer.
 
+.. image:: /images/noprinter.png
+   :width: 1200px
+   :alt: No printers
+   :align: center
 
 Steps to create an offline wallet: Prepare Laptop
-=================================================
+-------------------------------------------------
 
 First you need a old PC or laptop which you can miss and keep offline. Install a fresh copy of Linux OS such as
 Debian or Ubuntu on it and then install the Python BitcoinLib. See https://github.com/1200wd/bitcoinlib
@@ -51,7 +57,7 @@ Please use carefully and at your own risk.
 
 
 Next Step: Create a secure offline Wallet
-=========================================
+-----------------------------------------
 
 After your laptop is configured and the BitcoinLib is working take if offline so we can create a new secure wallet.
 
@@ -123,7 +129,7 @@ xpub6C5F532enEXKa4Q8RFGVUeLwQ86BNCWaqMCgq8uSqxeRFtiAziDPYG9sH2SJB1dmzVAfTnZiWQNx
 
 
 Create an online wallet
-=======================
+-----------------------
 
 On your online PC create an online public wallet using the public account key from the offline wallet. Use the '-u'
 option again to creates a couple of new keys / addresses.
@@ -141,7 +147,7 @@ The public wallet is a watch-only wallet it cannot sign and send transaction. Bu
 - Create new unsigned transactions
 
 Receive a payment
-=================
+-----------------
 
 Now send funds to a wallet's receive address. Show an available address with:
 
@@ -161,7 +167,7 @@ should show on your online PC with:
 
 
 Create and send a transaction
-=============================
+-----------------------------
 
 Now on create a transaction with your online wallet like this:
 
@@ -204,7 +210,7 @@ your offline PC for instance with the help of an USB stick.
 
 .. code-block:: bash
 
-   cli-wallet mywallet-priv -a <path-to-usd>/txdict.txt
+   cli-wallet mywallet-priv -a <path-to-usb>/txdict.txt
 
 The transaction will be imported and signed by the offline wallet and the transaction information is showed. Copy the
 raw transaction hash and save it to the USB stick.
@@ -224,6 +230,7 @@ And if transaction is successfully pushed you will receive a message like this:
 When you open the wallet again you will see the updated balance and transaction.
 
 Good luck,
+
 Lennart
 
 PS: There are still a little bit of sathosis left on this wallet with the private key shown above. If you are the first
