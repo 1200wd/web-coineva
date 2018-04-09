@@ -55,11 +55,11 @@ Next Step: Create a secure offline Wallet
 
 After your laptop is configured and the BitcoinLib is working take if offline so we can create a new secure wallet.
 
-Go to the tools directory of BitcoinLib, create a new wallet and generate an address to receive funds.
+Go to the tools directory of BitcoinLib, create a new wallet and generate an addresses to receive funds:
 
 .. code-block:: bash
 
-   cli-wallet mywallet-priv
+   cli-wallet mywallet-priv -u
 
 Type 'y' to create an new wallet and write down to passphrase to at least 2 pieces of paper as backup. You can
 recreate a wallet with one of these pieces of papers if you lose access to your PC/Laptop
@@ -67,14 +67,14 @@ recreate a wallet with one of these pieces of papers if you lose access to your 
 
 .. code-block:: bash
 
-   lennart@c:~$ cli-wallet mywallet-priv
+   lennart@c:~$ cli-wallet mywallet-priv -u
    Command Line Wallet for BitcoinLib
 
    Wallet mywallet-priv does not exist, create new wallet [yN]? y
 
    CREATE wallet 'mywallet-priv' (bitcoin network)
 
-   Your mnemonic private key sentence is: erase burden model museum upgrade ozone foster oyster maximum visit clump vendor
+   Your mnemonic private key sentence is: toward music glory great faith sustain work length gossip easy dizzy clever
 
    Please write down on paper and backup. With this key you can restore your wallet and all keys
 
@@ -82,52 +82,55 @@ recreate a wallet with one of these pieces of papers if you lose access to your 
    Updating wallet
    Wallet info for mywallet-priv
    === WALLET ===
-    ID                             4
+    ID                             3
     Name                           mywallet-priv
     Owner
     Scheme                         bip44
     Main network                   bitcoin
 
    = Wallet Master Key =
-    ID                             88
+    ID                             72
     Private                        True
     Depth                          0
 
    - NETWORK: bitcoin -
    - - Keys
-      88 m                            12Wmiym4ZrVpH6esSBgt8RDudQzajEdWpc            mywallet-priv                        0.00000000 BTC
-      89 m/44'                        16RbR7bnLfWzyeqM8CEXRDfe42sHbj73DT            mywallet-priv                        0.00000000 BTC
-      90 m/44'/0'                     1KGasy1LRjNt9iTwZ3Lqj1TtdjPoxuZsMK            mywallet-priv                        0.00000000 BTC
-      91 m/44'/0'/0'                  1BihnPy8QaUNejqkpLyKYFpLQGJfo6GZw7            Account #0                           0.00000000 BTC
-      92 m/44'/0'/0'/0                1MtocyALJoUuVSFFbjYYPDNJUusNkAiXyC            Account #0 Payments                  0.00000000 BTC
-      93 m/44'/0'/0'/1                1LwXXHVP5qSR9AhvPiuErN7V32Ydcz2Xte            Account #0 Change                    0.00000000 BTC
-      94 m/44'/0'/0'/0/0              1AJgdgd9wP3egy81vbehtqpZnTqQK5xqnc            Key 0                                0.00000000 BTC
-      95 m/44'/0'/0'/0/1              19vURyBHiEjvRaHJfx763ZgGsq4fxxGJ9d            Key 1                                0.00000000 BTC
-      96 m/44'/0'/0'/0/2              1F7ZezH5WcsDWzdvU7P2fHpGejzE1amDiT            Key 2                                0.00000000 BTC
-      97 m/44'/0'/0'/0/3              1KPoQczLocAPVmX6zeV4qMvdS9rXkvJoYK            Key 3                                0.00000000 BTC
-      98 m/44'/0'/0'/0/4              18oEp47qMujEc6gAcTQN81c3E4LtpHp1Q5            Key 4                                0.00000000 BTC
-      99 m/44'/0'/0'/1/0              1FRQnuKxoJ9zbueHGpPp9Rr8MEad9zXhp             Change 0                             0.00000000 BTC
-     100 m/44'/0'/0'/1/1              1JrqD41KF2v32nAxfFhYjVGejcSM3jCiDS            Change 1                             0.00000000 BTC
-     101 m/44'/0'/0'/1/2              19Nto3ms62o9ELRuDkDmtmh1mVPpofwC3q            Change 2                             0.00000000 BTC
-     102 m/44'/0'/0'/1/3              1MH1HZ2fU5ZRHyf5yGy4YWvZ7Aah3YD2hq            Change 3                             0.00000000 BTC
-     103 m/44'/0'/0'/1/4              17hZkiMZELjPQmFR3TTAFkFyi9q9QBEgGq            Change 4                             0.00000000 BTC
+      72 m                            1M4bY9QqkiJsmrAmpD611bksrPfjFoMbgY            mywallet-priv                        0.00000000 BTC
+      73 m/44'                        1GZwumEZTXjxBwTpfaqCHwiNphpcXnydEM            mywallet-priv                        0.00000000 BTC
+      74 m/44'/0'                     17zdAqPsqG57ztr5gAPk8dDTAArvxBoPKH            mywallet-priv                        0.00000000 BTC
+      75 m/44'/0'/0'                  1M81iGJqXpXU2De4eutj3c1gSprqfUZbdJ            Account #0                           0.00000000 BTC
+      76 m/44'/0'/0'/0                1GsmxzLQbBKXkUAEsxvRmQs3o3L5yRDvDc            Account #0 Payments                  0.00000000 BTC
+      77 m/44'/0'/0'/1                1Jmv5EhGPMVVmG5Bn5PPq1ovkG9ccfocpT            Account #0 Change                    0.00000000 BTC
+      78 m/44'/0'/0'/0/0              1DJT5PtdrkRvPUTaPXEmCjL7RzVBRsnuhL            Key 0                                0.00000000 BTC
+      79 m/44'/0'/0'/0/1              1Bo1ZSw3rkqyoVLHGrD1TpnVWMZmV8eoCs            Key 1                                0.00000000 BTC
+      80 m/44'/0'/0'/0/2              18bhdmbv5YDae7Aw28XtQuP8WJ47bPBzYS            Key 2                                0.00000000 BTC
+      81 m/44'/0'/0'/0/3              126FWpggWSLAzQYcJ3zQCjh85ZKVv5VE3M            Key 3                                0.00000000 BTC
+      82 m/44'/0'/0'/0/4              1Ay2KnQyyEEYfM1BoEpyQneqLZjAyZYzyd            Key 4                                0.00000000 BTC
+      83 m/44'/0'/0'/1/0              1Pq9ZANWmSXsMgdjsiMcmN2grdog6MKRv6            Change 0                             0.00000000 BTC
+      84 m/44'/0'/0'/1/1              1Lnrdad7ZPK7G6ysgDuUhsc3e43SCCgkDM            Change 1                             0.00000000 BTC
+      85 m/44'/0'/0'/1/2              1CkiLqUq8bWhgf3vQKeGSSwVCsE5RFHc38            Change 2                             0.00000000 BTC
+      86 m/44'/0'/0'/1/3              1HSYFNrgaa3Aoof9pz44Jy8w8iZAQE6cxZ            Change 3                             0.00000000 BTC
+      87 m/44'/0'/0'/1/4              13295LYWJz2smeG1PbBDTA3LDdiPqmPUwT            Change 4                             0.00000000 BTC
 
-   - - Transactions (Account 0, xpub6D8CV1m9LQJSvV24i6SVLGVecb9J9oC3n2p5UnspRPFBp52q7tL8cW4TqCUNcFfB7PB7zJwor2X9oRYSV7KPBTjBBdVgd57pcsTmFqurov4)
+   - - Transactions (Account 0, xpub6CDUND4VWCjyL4bYqY9ngbSrnmSeqTPtwqdDVQ8p5YYLhippqKiLFmbCHvP4ZbpE3C1DzkiAHMkWpycmY6kqhSvRHTCVWiyAYhA4j3StK8Q)
 
    = Balance Totals (includes unconfirmed) =
 
+The '-u' option is to update transactions and in this case it is used to create new addresses / keys/
+
 Now copy your public account key WIF showed in the wallet info on the line starting with '- - Transactions'. In this case:
-xpub6D8CV1m9LQJSvV24i6SVLGVecb9J9oC3n2p5UnspRPFBp52q7tL8cW4TqCUNcFfB7PB7zJwor2X9oRYSV7KPBTjBBdVgd57pcsTmFqurov4
+xpub6C5F532enEXKa4Q8RFGVUeLwQ86BNCWaqMCgq8uSqxeRFtiAziDPYG9sH2SJB1dmzVAfTnZiWQNxBeXRcGSnyNc7rRD38Pe2vU5RW1o9mhK
 
 
 Create an online wallet
 =======================
 
-On your online PC create an online public wallet using the public account key from the offline wallet
+On your online PC create an online public wallet using the public account key from the offline wallet. Use the '-u'
+option again to creates a couple of new keys / addresses.
 
 .. code-block:: bash
 
-   cli-wallet mywallet-pub -c xpub6CZhfzY66MTQFXuwMoKNUJWeBY152kPEFASoESfvgLj2SzeF7DZZN64UKv9foLNQ5STxyMEfWWXon6J7oVBFyw7nmDqpahWbWGF3HQkj9fp
+   cli-wallet mywallet-pub -u -c xpub6CZhfzY66MTQFXuwMoKNUJWeBY152kPEFASoESfvgLj2SzeF7DZZN64UKv9foLNQ5STxyMEfWWXon6J7oVBFyw7nmDqpahWbWGF3HQkj9fp
 
 A new wallet has been created and all key addresses should be the same.
 
@@ -150,41 +153,78 @@ If you have installed the qrcodelib you can now scan the QR code with another on
 address so you can transfer funds to your wallet.
 
 Your wallet will be updated when you call cli-wallet without extra options. Once you have send the funds they
-should show with:
+should show on your online PC with:
 
 .. code-block:: bash
 
-   cli-wallet mywallet-pub
+   cli-wallet mywallet-pub -u
 
 
-Create a transaction
-====================
+Create and send a transaction
+=============================
 
 Now on create a transaction with your online wallet like this:
 
 .. code-block:: bash
 
-   cli-wallet mywallet-pub -t 1GXErvQ8Wrd7T92aDV67x4U2YFic8Fz4v5 40000
+   lennart@c:~$ cli-wallet mywallet-pub -t 3LrXizKejCGYyGUxYzGweyuxFVtfs3odEe 100000
+   Command Line Wallet for BitcoinLib
 
-This will output a transaction overview with a python dictionary style output and a raw transaction hash. Now copy
-the raw transaction to your offline PC.
+   Transaction created
+   Transaction
+   Date: None
+   Network: bitcoin
+   Status: new
+   Verified: False
+   Inputs
+   - 1Ay2KnQyyEEYfM1BoEpyQneqLZjAyZYzyd 148414 db158f07381d9cc87ef27eed4ecb604b7405163e1ab4563e6c10537fc6aa6ee9 1
+     Script type: p2pkh, signatures: 0 (1 of 1)
+   Outputs
+   - 3LrXizKejCGYyGUxYzGweyuxFVtfs3odEe 100000
+   - 13295LYWJz2smeG1PbBDTA3LDdiPqmPUwT 46194
+   Fee: 2220
+   Confirmations: None
+   Pushed to network: False
+   Wallet: mywallet-pub
 
-Traceback (most recent call last):
-  File "/home/lennart/.local/bin/cli-wallet", line 11, in <module>
-    sys.exit(main())
-  File "/home/lennart/.local/lib/python3.5/site-packages/bitcoinlib/tools/cli_wallet.py", line 240, in main
-    t = wlt.transaction_import_raw(args.import_raw)
-  File "/home/lennart/.local/lib/python3.5/site-packages/bitcoinlib/wallets.py", line 2694, in transaction_import_raw
-    rt = self.transaction_create(t_import.outputs, t_import.inputs, network=network)
-  File "/home/lennart/.local/lib/python3.5/site-packages/bitcoinlib/wallets.py", line 2598, in transaction_create
-    to_hexstring(prev_hash), address))
-bitcoinlib.wallets.WalletError: UTXO 32e90c36ea81a7fa4cbf3634cdcb1dfe0a44a5199731ed71c123456be8790546 and key with address  not found in this wallet
+   Transaction created but not send yet. Transaction dictionary for export:
+   {'fee': 2220,
+    'inputs': [{'address': '1Ay2KnQyyEEYfM1BoEpyQneqLZjAyZYzyd',
+                'output_n': 1,
+                'prev_hash': 'db158f07381d9cc87ef27eed4ecb604b7405163e1ab4563e6c10537fc6aa6ee9',
+                'signatures': [],
+                'value': 148414}],
+    'network': 'bitcoin',
+    'outputs': [{'address': '3LrXizKejCGYyGUxYzGweyuxFVtfs3odEe', 'value': 100000},
+                {'address': '13295LYWJz2smeG1PbBDTA3LDdiPqmPUwT', 'value': 46194}],
+    'raw': '0100000001e96eaac67f53106c3e56b41a3e1605744b60cb4eed7ef27ec89c1d38078f15db0100000000ffffffff02a08601000000000017a914d237028e93ddb5e063c5f47685557e7b7265549e8772b40000000000001976a914162768737af6846894ec022692825c1e714f21de88ac00000000'}
 
+This will output a transaction overview with a python dictionary style output. Copy the transaction dictionary to
+your offline PC for instance with the help of an USB stick.
 
+.. code-block:: bash
 
+   cli-wallet mywallet-priv -a <path-to-usd>/txdict.txt
 
-Now if you would like to spend funds from your offline wallet you have to:
-* create a transaction on your online PC then
-* sign it on your offline PC, export the raw transaction and
-* push the transaction to the network on a online PC
+The transaction will be imported and signed by the offline wallet and the transaction information is showed. Copy the
+raw transaction hash and save it to the USB stick.
 
+To push the transaction to the network import the raw transaction on the online PC.
+
+.. code-block:: bash
+
+   cli-wallet mywallet-pub -i "0100000001e96eaac67f53106c3e56b41a3e1605744b60cb4eed7ef27ec89c1d38078f15db010000006b483045022100ed3681a573783a691f85311a5c4af6302742c331f049bf793b7d7eca30d2e60402201126c83895d1f3bd0f0e32a3d2e6fb2c22da11615e33282c7cb6d2b0de151505012102babad319637c497291a81ac53a84dd0485971303cc52ea635915640dc3cde097ffffffff02a08601000000000017a914d237028e93ddb5e063c5f47685557e7b7265549e8772b40000000000001976a914162768737af6846894ec022692825c1e714f21de88ac00000000" -p
+
+And if transaction is successfully pushed you will receive a message like this:
+
+.. code-block:: bash
+
+   Transaction pushed to network. Transaction ID: 8606205a652d9340569444f728fddfb03acadd1d270063872b4e4bc5bd3d4291
+
+When you open the wallet again you will see the updated balance and transaction.
+
+Good luck,
+Lennart
+
+PS: There are still a little bit of sathosis left on this wallet with the private key shown above. If you are the first
+one to find them: congratulations and drink a coffee or beer on me!
