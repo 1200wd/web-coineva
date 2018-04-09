@@ -40,7 +40,7 @@ Features
 Wallet
 ~~~~~~
 
-The bitcoinlibrary contains a wallet implementation using sqlalchemy and sqllite3 to import, create and manage
+The Bitcoin Library contains a wallet implementation using sqlalchemy and sqllite3 to import, create and manage
 keys in a Hierarchical Deterministic Way.
 
 Example: Create wallet and generate new key to receive bitcoins
