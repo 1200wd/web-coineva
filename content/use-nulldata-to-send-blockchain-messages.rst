@@ -2,7 +2,7 @@ Use Nulldata to write messages on the Bitcoin Blockchain
 ========================================================
 
 :date: 2017-10-12 11:14
-:modified: 2017-10-12 11:18
+:modified: 2018-04-27 21:22
 :tags: bitcoin, bitcoinlib, blockchain, nulldata, op_return, message
 :category: BitcoinLib
 :slug: use-nulldata-to-send-blockchain-messages
@@ -70,15 +70,6 @@ order.
 Technically you can create a transaction with multiple nulldata scripts. Such a transaction is considered valid
 but is non-standard and will be rejected by most bitcoin clients.
 
-The python script can be found in this transactions:
-- 669bb4058f95453cd5fb4d63e6ba91aa24bd884840a989fe179c15a621cf8846
-- f86c958a25569e9e6ffcb9212511d06f3593497ac5231de0a39774b068833d03
-- 08beaadc0a75b8864bd5ba82d7b7e3e5039e882cb683ad17a2afb4001460d30e
-- d17b281402ab4afd1ba78545014213a53d644384c144e21ce6c12556f5287746
-- e3578b216f6173568a4c7c86d80b8740fa1e1dc1419634a8ec3c8bcfdc25cd54
-- 03f8210e4a7bbc7c5028b9ae6d400f60de6b152e4d239a6a7fa0508cca36ff6d
-- https://www.smartbit.com.au/tx/789593166c06e6a9ecb99b1fa39226dd07dabe64849467390f449fd337de18da
-
 
 Where can this be used for?
 ---------------------------
@@ -96,7 +87,25 @@ or other crypto currencies. Colored coins (https://en.wikipedia.org/wiki/Colored
 or Counterparty (https://counterparty.io) are examples of this.
 
 
-Could not stop myself
----------------------
+Just for fun
+------------
 
-The script above is embedded on the bitcoin blockchain.
+The Python script above is embedded in plaintext format as Nulldata on the bitcoin blockchain.
+
+The python script can be found in these 8 transactions:
+`669bb4058f95453cd5fb4d63e6ba91aa24bd884840a989fe179c15a621cf8846
+<https://www.smartbit.com.au/tx/669bb4058f95453cd5fb4d63e6ba91aa24bd884840a989fe179c15a621cf8846>`_,
+`f86c958a25569e9e6ffcb9212511d06f3593497ac5231de0a39774b068833d03
+<https://www.smartbit.com.au/tx/f86c958a25569e9e6ffcb9212511d06f3593497ac5231de0a39774b068833d03>`_,
+`08beaadc0a75b8864bd5ba82d7b7e3e5039e882cb683ad17a2afb4001460d30e
+<https://www.smartbit.com.au/tx/08beaadc0a75b8864bd5ba82d7b7e3e5039e882cb683ad17a2afb4001460d30e>`_,
+`669bb4058f95453cd5fb4d63e6ba91aa24bd884840a989fe179c15a621cf8846
+<https://www.smartbit.com.au/tx/d17b281402ab4afd1ba78545014213a53d644384c144e21ce6c12556f5287746>`_,
+`d17b281402ab4afd1ba78545014213a53d644384c144e21ce6c12556f5287746
+<https://www.smartbit.com.au/tx/669bb4058f95453cd5fb4d63e6ba91aa24bd884840a989fe179c15a621cf8846>`_,
+`e3578b216f6173568a4c7c86d80b8740fa1e1dc1419634a8ec3c8bcfdc25cd54
+<https://www.smartbit.com.au/tx/e3578b216f6173568a4c7c86d80b8740fa1e1dc1419634a8ec3c8bcfdc25cd54>`_,
+`03f8210e4a7bbc7c5028b9ae6d400f60de6b152e4d239a6a7fa0508cca36ff6d
+<https://www.smartbit.com.au/tx/03f8210e4a7bbc7c5028b9ae6d400f60de6b152e4d239a6a7fa0508cca36ff6d>`_ and
+`789593166c06e6a9ecb99b1fa39226dd07dabe64849467390f449fd337de18da
+<https://www.smartbit.com.au/tx/789593166c06e6a9ecb99b1fa39226dd07dabe64849467390f449fd337de18da>`_.
