@@ -25,7 +25,7 @@ The safety off this wallet also depends on the safety of your devices and storag
 backup key but this is out of scope for this article so I leave that up to your common sense.
 
 .. image:: /images/litecoin-multisig-2-of-3.jpg
-   :width: 616px
+   :width: 308px
    :alt: Litecoin Multisig Wallet with three Keys
    :align: right
 
