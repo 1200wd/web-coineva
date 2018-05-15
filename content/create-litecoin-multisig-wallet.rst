@@ -156,5 +156,5 @@ Then to create the new 2 of 3 multisig wallet type:
 Verify if the first address is the same in the offline and online wallet.
 
 Now your 2 of 3 Litecoin multisig wallet is complete and ready to store Litecoins.
-In the next article I will explain how to
-`create a Litecoin multisig transaction <{filename}/create-litecoin-multisig-transaction.rst>.
+In the next article I will explain how to spend them and
+`create a Litecoin multisig transaction <{filename}/create-litecoin-multisig-transaction.rst>`_
