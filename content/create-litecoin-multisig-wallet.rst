@@ -2,7 +2,7 @@ Create a Litecoin Multisig Wallet
 =================================
 
 :date: 2018-05-11 17:44
-:modified: 2018-05-11 17:44
+:modified: 2018-05-16 21:55
 :tags: litecoin, multisig, 2-of-3, wallets, bitcoinlib, commandline wallet
 :category: BitcoinLib
 :slug: create-litecoin-multisig-wallet
