@@ -2,7 +2,7 @@ Create a Litecoin Multisig Wallet
 =================================
 
 :date: 2018-05-11 17:44
-:modified: 2018-05-11 17:44
+:modified: 2018-05-16 21:55
 :tags: litecoin, multisig, 2-of-3, wallets, bitcoinlib, commandline wallet
 :category: BitcoinLib
 :slug: create-litecoin-multisig-wallet
@@ -156,25 +156,5 @@ Then to create the new 2 of 3 multisig wallet type:
 Verify if the first address is the same in the offline and online wallet.
 
 Now your 2 of 3 Litecoin multisig wallet is complete and ready to store Litecoins.
-In the next article I will explain how to create and send a transaction.
-To be continued...
-
-
-
-..  == Create a transaction
-    Update wallet and check balance (UTXO's)
-    - cli-wallet LitecoinMS-on
-    == Restore wallet from backup
-    = Online wallet lost
-    Online PC:
-    create new temporary wallet with public keys and backup key
-    create new multisig wallet
-    transfer funds to new wallet (see create transaction section)
-    = Offline wallet lost
-    Online PC:
-    create transaction
-    create new multisig wallet
-    Offline PC:
-    sign transaction with backup key
-    Online PC
-    send tx to new wallet
+In the next article I will explain how to spend them and
+`create a Litecoin multisig transaction <{filename}/create-litecoin-multisig-transaction.rst>`_
