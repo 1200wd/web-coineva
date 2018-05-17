@@ -103,6 +103,7 @@ The commandline wallet outputs a the transaction in human readable format and as
 The transaction does not verify yet because it is only signed by 1 signature and it needs 2. So now
 copy the python dictionary and save it to a USB stick in text format.
 
+
 Sign transaction with offline wallet
 ------------------------------------
 
