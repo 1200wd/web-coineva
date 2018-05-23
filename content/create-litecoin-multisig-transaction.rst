@@ -1,15 +1,14 @@
 Create a Litecoin Multisig Transaction
 ======================================
 
-:date: 2018-05-16 19:11
-:modified: 2018-05-16 19:54
+:date: 2018-05-23 10:11
+:modified: 2018-05-23 10:54
 :tags: litecoin, LTC, multisig, send transaction, create transaction, bitcoinlib, CL wallet
 :category: BitcoinLib
 :slug: create-litecoin-multisig-transaction
 :authors: Lennart Jongeneel
 :summary: Create a Litecoin Multisig Transaction with the 2-of-3 multisig wallet using the BitcoinLib Command Line Utility
 :language: en
-:status: draft
 
 
 .. :slug: create-litecoin-multisig-transaction:
@@ -172,6 +171,7 @@ To broadcast your transaction to the network import the raw transaction and push
 .. code-block:: bash
 
     $ cli-wallet LitecoinMS -p -i 01000000012f4d6e72e0829ffea40aa7cd5889a114d5bb43a2c3407f0bd5efec9d9c4c9b9a00000000fdfe000048304502210091ddefdd9b18e036b0fe930a395914522f189c812c40fbbfbfe0d9936e645bfb022064c29a3fb85f0fac6ae0debeff410aca8c310c339def1ffa0e47b63a68b89f1a01483045022100ed4f1c06fecc53df9b36dd54a79d5b8764f147fc5538f707df6c4a6afd3070390220419311e194d9e42984f8c4ec246f12e587b9f9e67caaf417ad51c7a23a6bf52e014c6952210364170e13312e6a2a867ce65e868a5539d53ed79017943f95059a2525fef5bb0f21038de68940ee5bf5c3004c940768155338f0fd404049ecd5760219e7386726b97f2103ddd8009546aa3300d97cd6d49be227be78095ac72b05af8fe77490fd2091ce3f53aeffffffff0240420f00000000001976a914ea4349b431766be64c1c5015afd865e267d77a6988ac43b621000000000017a914cd271b873341f5364c9eb0217b5255be25f11cf98700000000
+
 
 ..  == Restore wallet from backup
     = Online wallet lost
