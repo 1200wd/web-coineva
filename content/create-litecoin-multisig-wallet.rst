@@ -29,6 +29,7 @@ backup key but this is out of scope for this article so I leave that up to your 
    :alt: Litecoin Multisig Wallet with three Keys
    :align: right
 
+
 Create the first key on your online device
 ------------------------------------------
 
@@ -154,6 +155,10 @@ Then to create the new 2 of 3 multisig wallet type:
 
 
 Verify if the first address is the same in the offline and online wallet.
+
+
+Next step: Create a Transaction
+-------------------------------
 
 Now your 2 of 3 Litecoin multisig wallet is complete and ready to store Litecoins.
 In the next article I will explain how to spend them and
