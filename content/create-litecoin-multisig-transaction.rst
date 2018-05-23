@@ -21,6 +21,10 @@ We will create a Litecoin multisig transaction using the command line wallet fro
 `Python BitcoinLib <{filename}/python-bitcoin-library.rst>`_ with the online main wallet
 and an offline wallet.
 
+.. image:: /images/litecoin-transactions.jpg
+   :width: 495px
+   :alt: Litecoin Multisig Transaction
+   :align: right
 
 Create transaction with online wallet
 -------------------------------------
