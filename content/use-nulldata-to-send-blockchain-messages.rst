@@ -1,5 +1,5 @@
-Use Nulldata to write messages on the Bitcoin Blockchain
-========================================================
+Use Nulldata to store data on the Bitcoin Blockchain
+====================================================
 
 :date: 2017-10-12 11:14
 :modified: 2018-06-28 16:25
@@ -15,7 +15,7 @@ Blockchain to Send and Store Data
 ---------------------------------
 
 Not many people know that besides transacting and storing value, the bitcoin blockchain offers
-an option to send data and store small amounts of data in the blockchain.
+an option to 'send data' instead of currency and store small amounts of data in the blockchain.
 
 To store data in the blockchain you just send a transaction, but instead of sending it to another bitcoin
 address you send a Null Data transaction with a zero value output. So 1 of the outputs does not contain
