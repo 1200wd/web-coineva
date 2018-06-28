@@ -2,8 +2,8 @@ Import a paper wallet into Blockchain.info
 ==========================================
 
 :date: 2017-06-01 14:36
-:modified: 2017-06-01 14:36
-:tags: bitcoin, wallets
+:modified: 2018-06-28 17:02
+:tags: bitcoin, wallets, blockchain.info, paper
 :category: Paper Wallets
 :slug: paper-wallet-import-blockchain-info
 :authors: Lennart Jongeneel
@@ -27,10 +27,10 @@ to wait a couple or hours.
    :alt: Transfer bitcoins from your paper wallet to the Blockchain.info wallet
    :align: center
 
-Please note: Normally never enter your private key on any website! However blockchain.info is well
-known and established, and their website is set up in such a way that your private keys are
-not send to their servers. However for larger amount of bitcoins and / or long term storage I
-would advice to use a local hardware or software wallet.
+Please note: Normally never enter your private key on any website! However blockchain.info is
+well-known and established, and their website is set up in such a way that your private keys are
+not sent to their servers. However for larger amount of bitcoins and / or long term storage I
+would advise to use a local hardware or software wallet.
 
 .. image:: /images/blockchain-info-received-from-paper-wallet.png
    :width: 1200px

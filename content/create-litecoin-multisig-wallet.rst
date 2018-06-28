@@ -2,7 +2,7 @@ Create a Litecoin Multisig Wallet
 =================================
 
 :date: 2018-05-11 17:44
-:modified: 2018-05-16 21:55
+:modified: 2018-06-28 16:29
 :tags: litecoin, multisig, 2-of-3, wallets, bitcoinlib, commandline wallet
 :category: BitcoinLib
 :slug: create-litecoin-multisig-wallet
@@ -19,10 +19,10 @@ online device, one on a offline device and one on a paper backup. Transactions a
 on the online device and then signed with the offline PC with the second signature.
 
 If one device gets lost or broken the litecoins can be accessed with the backup key.
-And if someone get access to one of the devices your litecoins are still safe.
+And if someone gets access to one of the devices your litecoins are still safe.
 
-The safety off this wallet also depends on the safety of your devices and storage of the
-backup key but this is out of scope for this article so I leave that up to your common sense.
+The safety of this wallet also depends on the safety of your devices and storage of the
+backup key but this is out of scope for this article, so I leave that up to your common sense.
 
 .. image:: /images/litecoin-multisig-2-of-3.jpg
    :width: 308px
@@ -54,9 +54,9 @@ Create the first key on your online device with the command line wallet:
 
 Now store the private and public key on a safe location on your online device.
 
-(You can choose to create a backup of this key on paper or on an other encrypted device in
+(You can choose to create a backup of this key on paper or on another encrypted device in
 case both your online and offline device get lost or broken. This creates an extra
-security risk of course so I leave it up to you. In any case: Do not store this backup
+security risk of course, so I leave it up to you. In any case: Do not store this backup
 together with the offline device or other paper backup!)
 
 

@@ -2,7 +2,7 @@ Create a Litecoin Multisig Transaction
 ======================================
 
 :date: 2018-05-23 10:11
-:modified: 2018-05-23 10:54
+:modified: 2018-06-28 16:29
 :tags: litecoin, LTC, multisig, send transaction, create transaction, bitcoinlib, CL wallet
 :category: BitcoinLib
 :slug: create-litecoin-multisig-transaction
@@ -100,12 +100,13 @@ to send 0.01 LTC to another address.
                   'value': 1000000},
                  {'address': '3LPmJ7DLR9v4ax6cSdPtgMB9jh7CDQ4Y64',
                   'value': 2209347}],
-     'raw': '01000000012f4d6e72e0829ffea40aa7cd5889a114d5bb43a2c3407f0bd5efec9d9c4c9b9a00000000b50048304502210091ddefdd9b18e036b0fe930a395914522f189c812c40fbbfbfe0d9936e645bfb022064c29a3fb85f0fac6ae0debeff410aca8c310c339def1ffa0e47b63a68b89f1a014c6952210364170e13312e6a2a867ce65e868a5539d53ed79017943f95059a2525fef5bb0f21038de68940ee5bf5c3004c940768155338f0fd404049ecd5760219e7386726b97f2103ddd8009546aa3300d97cd6d49be227be78095ac72b05af8fe77490fd2091ce3f53aeffffffff0240420f00000000001976a914ea4349b431766be64c1c5015afd865e267d77a6988ac43b621000000000017a914cd271b873341f5364c9eb0217b5255be25f11cf98700000000'}
+     'raw': '01000000012f4d6e72e0829ffea40aa7cd5889a114d5bb43a2c3407f0bd5efec9d9c4c9b9a00000000b50048304502210091ddefdd9b18e036b0fe930a395914522f189c812c40fbbfbfe0d9936e645bfb022064c29a3fb85f0fac6ae0debeff410aca8c310c339def1ffa0e47b63a68b89f1a014c6952210364170e13312e6a2a867ce65e868a5539d53ed79017943f95059a2525fef5bb0f21038de68940ee5bf5c3004c940768155338f0fd404049ecd5760219e7386726b97f2103ddd8009546aa3300d97cd6d49be227be78095ac72b05af8fe77490fd2091ce3f53aeffffffff0240420f00000000001976a914ea4349b431766be64c1c5015afd865e267d77a6988ac43b621000000000017a914cd271b873341f5364c9eb0217b5255be25f11cf98700000000'
+    }
 
-The commandline wallet outputs a the transaction in human readable format and as a Python dictionary.
+The commandline wallet outputs the transaction in human readable format and as a Python dictionary.
 The transaction does not verify yet because it is only signed by 1 signature and it needs 2.
 
-Now save the Python dictionary to an USB stick in text format and name it 'tx_dict.txt'.
+Now save the Python dictionary to a USB stick in text format and name it 'tx_dict.txt'.
 
 
 Sign transaction with offline wallet
@@ -157,7 +158,7 @@ This will a signed transaction and as you can see now it is verified and ready t
 
 But before you continue please check if the transaction is the same as the original transaction. Besides
 software or human mistakes it is a possibility someone hacks into your online PC and change the
-transaction so it send outputs to another address.
+transaction so it sends outputs to another address.
 
 
 Send transaction

@@ -2,8 +2,8 @@ Import a paper wallet into Mycelium
 ===================================
 
 :date: 2017-06-01 14:36
-:modified: 2017-06-01 14:36
-:tags: bitcoin, wallets
+:modified: 2018-06-28 17:12
+:tags: bitcoin, wallets, mycelium, paper
 :category: Paper Wallets
 :slug: paper-wallet-import-mycelium
 :authors: Lennart Jongeneel
@@ -42,7 +42,7 @@ select 'low-prio' from the miner fee selection.
    :alt: Sweep complete cold storage / paper wallet
    :align: center
 
-Your transaction is now being processed and shows up in you wallet as pending.
+Your transaction is now being processed and shows up in your wallet as pending.
 It might take a couple of hours or more if you have selected low priority fee,
 but you can already use your bitcoins.
 
