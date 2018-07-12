@@ -52,7 +52,8 @@ Create a hash of this bitcoin logo PNG image file:
 
 
 When you run this script it should return the following output:
-.. code-block:: code
+
+.. code-block:: none
 
     Hash of /home/guest/Documents/bitcoin-logo.png is f6e4f3701cc1ab4695195d809d5a54d8cb3a87aa
 
