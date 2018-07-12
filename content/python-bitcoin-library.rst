@@ -49,10 +49,10 @@ just for a read only wallet, not for creating or sending transactions
 
 
 Features
-========
+--------
 
-Simple Wallet
--------------
+Wallet
+~~~~~~
 
 The bitcoin library contains a wallet implementation using sqlalchemy and sqllite3 to import, create and manage
 keys in a Hierarchical Deterministic way.
@@ -85,7 +85,7 @@ If successful a transaction ID is returned
 
 
 Wallet from passphrase with accounts and multiple currencies
-------------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The following code creates a wallet with two bitcoin and one litecoin account from a Mnemonic passphrase.
 The complete wallet can be recovered from the passphrase which is the masterkey.
@@ -107,7 +107,7 @@ The complete wallet can be recovered from the passphrase which is the masterkey.
 
 
 Multi Signature Wallets
------------------------
+~~~~~~~~~~~~~~~~~~~~~~~
 
 Create a Multisig wallet with 2 cosigner which both need to sign a transaction.
 
@@ -147,7 +147,7 @@ And then import the transaction in the second wallet, sign it and push it to the
 
 
 Mnemonic key generation
------------------------
+~~~~~~~~~~~~~~~~~~~~~~~
 
 Allows you to use easy to remember passphrases consisting of a number of words to store private keys (BIP0039).
 You can password protect this passphrase (BIP0038), and use the HD Wallet structure to generate a almost infinite
@@ -166,7 +166,7 @@ Example: Generate a list of words passphrase and derive a private key seed
 
 
 Service providers
------------------
+~~~~~~~~~~~~~~~~~
 Communicates with pools of bitcoin service providers to retreive transaction, address, blockchain information.
 Can be used to push a transaction to the network, determine optimal service fee for a transaction or to update your
 wallet's balance.
