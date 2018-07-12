@@ -1,5 +1,5 @@
-Store Documents or Hashed Data on the Blockchain
-================================================
+Proof existence of documents using Nulldata
+===========================================
 
 :date: 2018-07-12 06:43
 :modified: 2018-07-12 06:43
