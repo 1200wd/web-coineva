@@ -2,7 +2,7 @@ Use Nulldata to store data on the Bitcoin Blockchain
 ====================================================
 
 :date: 2017-10-12 11:14
-:modified: 2018-06-28 16:25
+:modified: 2018-07-14 12:34
 :tags: bitcoin, bitcoinlib, blockchain, nulldata, op_return, message
 :category: BitcoinLib
 :slug: use-nulldata-to-send-blockchain-messages
@@ -56,6 +56,14 @@ The locking script of the Null Data output starts with the OP_RETURN opcode foll
 The data string can contain anything you like, a size byte is added by the varstr() method.
 
 
+Nulldata acceptance issues
+--------------------------
+
+Not all Bitcoin nodes and Service providers accept Nulldata transaction or accept only Nulldata with a
+maximum size of 40 bytes. If you encounter this problem, you could set up your own bitcoin node and use
+this or specify an service provider when sending the transaction.
+
+
 Where can this be used for?
 ---------------------------
 
@@ -65,7 +73,9 @@ blockchain. This is nice (and necessary) for storing value but can also be used 
 on a specific date: a renting contract or birth certificate for instance.
 
 On the Proof Of Existence website (https://poex.io) you can store a hash of any document, which proves the existence of
-a document on a specific data.
+a document on a specific data. And in my article: "
+`Proof existence of documents using Nulldata <{filename}/proof-existence-store-documents-hash-blockchain.rst>`_ "
+I explain how to do this yourself with BitcoinLib.
 
 But Null Data messages can also be used to build another layer on the blockchain network to store assets
 or other crypto currencies. Colored coins (https://en.wikipedia.org/wiki/Colored_coin)
