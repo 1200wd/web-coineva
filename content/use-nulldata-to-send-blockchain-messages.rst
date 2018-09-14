@@ -59,7 +59,7 @@ The data string can contain anything you like, a size byte is added by the varst
 Nulldata acceptance issues
 --------------------------
 
-Not all Bitcoin nodes and Service providers accept Nulldata transaction or accept only Nulldata with a
+Not all Bitcoin nodes and Service providers accept Nulldata transactions or accept only Nulldata with a
 maximum size of 40 bytes. If you encounter this problem, you could set up your own bitcoin node and use
 this or specify an service provider when sending the transaction.
 
