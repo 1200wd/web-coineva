@@ -1,5 +1,5 @@
-Use Nulldata to store data on the Bitcoin Blockchain
-====================================================
+Use Nulldata to store data on the Litecoin or Dash Blockchain
+=============================================================
 
 :date: 2018-09-14 08:45
 :modified: 2018-09-14 08:45
@@ -27,9 +27,8 @@ a previous transaction to cover the transactions fees.
 Send a Data Transaction
 -----------------------
 
-As far as I know there is no GUI wallet offering the option to send a data transaction at the moment,
-but with some code and the `Python BitcoinLib <{filename}/python-bitcoin-library.rst>`_
-it is easy to do.
+With the code below using the `Python BitcoinLib <{filename}/python-bitcoin-library.rst>`_
+you can create a Nulldata transaction.
 
 .. code-block:: python
 
