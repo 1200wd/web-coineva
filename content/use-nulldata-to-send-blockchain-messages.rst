@@ -2,7 +2,7 @@ Use Nulldata to store data on the Bitcoin Blockchain
 ====================================================
 
 :date: 2017-10-12 11:14
-:modified: 2018-07-14 12:34
+:modified: 2018-12-26 15:51
 :tags: bitcoin, bitcoinlib, blockchain, nulldata, op_return, message
 :category: BitcoinLib
 :slug: use-nulldata-to-send-blockchain-messages
@@ -75,7 +75,11 @@ on a specific date: a renting contract or birth certificate for instance.
 On the Proof Of Existence website (https://poex.io) you can store a hash of any document, which proves the existence of
 a document on a specific data. And in my article: "
 `Proof existence of documents using Nulldata <{filename}/proof-existence-store-documents-hash-blockchain.rst>`_ "
-I explain how to do this yourself with BitcoinLib.
+is explained how to do this yourself with BitcoinLib.
+
+Storing data is not limited to the Bitcoin blockchain,
+`Null data transactions are also available on the Litecoin or Dash blockchain
+<{filename}/use-nulldata-to-store-data-on-litecoin-or-dash-blockchain.rst>`_.
 
 But Null Data messages can also be used to build another layer on the blockchain network to store assets
 or other crypto currencies. Colored coins (https://en.wikipedia.org/wiki/Colored_coin)
