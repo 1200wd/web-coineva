@@ -4,7 +4,7 @@ Create a Litecoin Multisig Transaction
 :date: 2018-05-23 10:11
 :modified: 2018-06-28 16:29
 :tags: litecoin, LTC, multisig, send transaction, create transaction, bitcoinlib, CL wallet
-:category: BitcoinLib, Litecoin
+:category: BitcoinLib
 :slug: create-litecoin-multisig-transaction
 :authors: Lennart Jongeneel
 :summary: Create a Litecoin Multisig Transaction with the 2-of-3 multisig wallet using the BitcoinLib Command Line Utility
