@@ -22,8 +22,10 @@ It assumes you have the installed the `Python BitcoinLib <{filename}/python-bitc
 
 .. image:: /images/bitcoin-litecoin-segwit.jpg
    :width: 640px
-   :alt: Bitcoin and Litecoin SegWit Wallet
+   :alt: Bitcoin and Litecoin SegWit Wallet, credits @Frankieboy93
    :align: right
+
+Thanks to Peter Dalby for the image, https://twitter.com/Frankieboy93
 
 
 Create the private key
