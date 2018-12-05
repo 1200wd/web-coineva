@@ -2,7 +2,7 @@ Create a Bitcoin and Litecoin Segwit Wallet
 ===========================================
 
 :date: 2018-12-05 12:04
-:modified: 2018-12-05 12:07
+:modified: 2018-12-05 13:18
 :tags: segwit, wallets, bitcoinlib, bitcoin, litecoin
 :category: BitcoinLib
 :slug: create-litecoin-bitcoin-segwit-wallet
@@ -20,9 +20,9 @@ This article describes how to create a Segwit wallet with Python BitcoinLib from
 It assumes you have the installed the `Python BitcoinLib <{filename}/python-bitcoin-library.rst>`_ with
 'pip install bitcoinlib'.
 
-.. image:: /images/litecoin-multisig-2-of-3.jpg
-   :width: 308px
-   :alt: Litecoin Multisig Wallet with three Keys
+.. image:: /images/bitcoin-litecoin-segwit.jpg
+   :width: 640px
+   :alt: Bitcoin and Litecoin SegWit Wallet
    :align: right
 
 
