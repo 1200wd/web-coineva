@@ -3,7 +3,7 @@ Create a Bitcoin and Litecoin Segwit Wallet
 
 :date: 2018-12-05 12:04
 :modified: 2018-12-05 13:18
-:tags: segwit, wallets, bitcoinlib, bitcoin, litecoin
+:tags: segwit, wallets, bitcoinlib, bitcoin, litecoin, manual
 :category: BitcoinLib
 :slug: create-litecoin-bitcoin-segwit-wallet
 :authors: Lennart Jongeneel

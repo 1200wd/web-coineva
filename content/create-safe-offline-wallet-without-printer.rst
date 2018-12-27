@@ -3,8 +3,8 @@ Guide: Create a safe offline wallet without printer
 
 :date: 2018-04-09 21:54
 :modified: 2018-04-09 21:54
-:tags: bitcoin, litecoin, paper wallet, no printer, passphrase, bitcoinlib, manual
-:category: How To
+:tags: bitcoin, litecoin, paper wallets, no printer, passphrase, bitcoinlib, manual
+:category: Paper Wallets
 :slug: create-safe-offline-wallet-without-printer
 :authors: Lennart Jongeneel
 :summary: Create a safe offline crypto currency wallet on an offline system without using a printer

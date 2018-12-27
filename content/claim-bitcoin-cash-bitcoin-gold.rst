@@ -3,8 +3,8 @@ Claim your Bitcoin Gold, Bitcoin Cash or other forks
 
 :date: 2017-12-13 13:54
 :modified: 2017-12-13 18:22
-:tags: bitcoin, bitcoin gold, bitcoin cash, bitcoin diamond, claim, fork, bcash, bch, btg
-:category: How To
+:tags: bitcoin, bitcoin gold, bitcoin cash, bitcoin diamond, claim, fork, manual
+:category: Software Wallets
 :slug: claim-bitcoin-cash-bitcoin-gold-or-other-forks
 :authors: Lennart Jongeneel
 :summary: How to claim your Bitcoin Cash, Bitcoin Gold or other coins after a bitcoin hard fork

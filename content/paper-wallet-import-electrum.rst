@@ -3,7 +3,7 @@ Import a paper wallet into Electrum
 
 :date: 2017-06-01 14:36
 :modified: 2017-06-01 14:36
-:tags: bitcoin, wallets
+:tags: bitcoin, wallets, electrum, paper wallets, manual
 :category: Paper Wallets
 :slug: paper-wallet-import-electrum
 :authors: Lennart Jongeneel

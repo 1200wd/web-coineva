@@ -3,7 +3,7 @@ Import a paper wallet into Mycelium
 
 :date: 2017-06-01 14:36
 :modified: 2018-06-28 17:12
-:tags: bitcoin, wallets, mycelium, paper
+:tags: bitcoin, wallets, mycelium, paper wallets, manual
 :category: Paper Wallets
 :slug: paper-wallet-import-mycelium
 :authors: Lennart Jongeneel

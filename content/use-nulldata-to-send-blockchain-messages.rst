@@ -3,7 +3,7 @@ Use Nulldata to store data on the Bitcoin Blockchain
 
 :date: 2017-10-12 11:14
 :modified: 2018-12-26 15:51
-:tags: bitcoin, bitcoinlib, blockchain, nulldata, op_return, message
+:tags: bitcoin, bitcoinlib, blockchain, nulldata, op_return, manual
 :category: BitcoinLib
 :slug: use-nulldata-to-send-blockchain-messages
 :authors: Lennart Jongeneel

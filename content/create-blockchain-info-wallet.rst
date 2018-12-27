@@ -3,7 +3,7 @@ Create a Blockchain.info Wallet
 
 :date: 2017-06-01 14:36
 :modified: 2017-06-01 14:36
-:tags: bitcoin, wallets
+:tags: bitcoin, wallets, blockchain.info, manual
 :category: Online Wallets
 :slug: create-blockchain-info-wallet
 :authors: Lennart Jongeneel

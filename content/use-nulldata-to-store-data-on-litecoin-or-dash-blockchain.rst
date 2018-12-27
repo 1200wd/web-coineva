@@ -3,7 +3,7 @@ Use Nulldata to store data on the Litecoin or Dash Blockchain
 
 :date: 2018-09-14 08:45
 :modified: 2018-09-14 08:45
-:tags: litecoin, dash, bitcoinlib, blockchain, nulldata, op_return, data
+:tags: litecoin, dash, bitcoinlib, blockchain, nulldata, op_return, manual
 :category: BitcoinLib
 :slug: use-nulldata-to-store-data-on-litecoin-or-dash-blockchain
 :authors: Lennart Jongeneel

@@ -42,9 +42,9 @@ LINKS = (('BitcoinLib', '/python-bitcoin-library.html'),
          ('Bitcoinlib Docs', 'http://bitcoinlib.readthedocs.io/en/latest/'),
          ('Github BulkPaperWallets', 'https://github.com/1200wd/bulkpaperwallets'))
 
-MENUITEMS = (('Archives', '/archives.html'),
-             ('Categories', '/categories.html'),
-             ('Tags', '/tags.html'),)
+# MENUITEMS = (('Archives', '/archives.html'),
+#              ('Categories', '/categories.html'),
+#              ('Tags', '/tags.html'),)
 
 # Social widget
 SOCIAL = (('Github', 'https://github.com/1200wd'),

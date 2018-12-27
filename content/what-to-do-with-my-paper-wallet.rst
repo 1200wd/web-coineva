@@ -3,7 +3,7 @@ What to do with my paper wallet?
 
 :date: 2017-07-01 14:36
 :modified: 2017-07-01 14:36
-:tags: bitcoin, wallets
+:tags: bitcoin, wallets, manual, paper wallets
 :category: Paper Wallets
 :slug: what-to-do-with-my-paper-wallet
 :authors: Lennart Jongeneel

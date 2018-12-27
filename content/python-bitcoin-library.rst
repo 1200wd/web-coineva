@@ -3,7 +3,7 @@ Bitcoinlib
 
 :date: 2017-06-01 14:36
 :modified: 2018-12-27 21:28
-:tags: bitcoin, bitcoinlib, python, wallet, commandline wallet, transaction, keys
+:tags: bitcoin, bitcoinlib, python, wallets, commandline wallets, transactions, keys
 :category: BitcoinLib
 :slug: python-bitcoin-library
 :authors: Lennart Jongeneel

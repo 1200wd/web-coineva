@@ -3,7 +3,7 @@ Import a paper wallet into Blockchain.info
 
 :date: 2017-06-01 14:36
 :modified: 2018-06-28 17:02
-:tags: bitcoin, wallets, blockchain.info, paper
+:tags: bitcoin, wallets, blockchain.info, paper wallets, manual
 :category: Paper Wallets
 :slug: paper-wallet-import-blockchain-info
 :authors: Lennart Jongeneel
