@@ -38,20 +38,18 @@ HOME_HIDE_TAGS = True
 DISPLAY_PAGES_ON_MENU = False
 
 # Blogroll
-LINKS = (('What to do with my paper wallet?', '/what-to-do-with-my-paper-wallet.html'),
-         # ('5 ways to explain bitcoin', '/five-ways-to-explain-bitcoin.html'),
-         # ('why bitcoin?', '/why-bitcoin.html'),
-         ('bitcoinlib', '/python-bitcoin-library.html'),
-         ('bulkpaperwallets', 'https://github.com/1200wd/bulkpaperwallets'))
+LINKS = (('BitcoinLib', '/python-bitcoin-library.html'),
+         ('Bitcoinlib Docs', 'http://bitcoinlib.readthedocs.io/en/latest/'),
+         ('Github BulkPaperWallets', 'https://github.com/1200wd/bulkpaperwallets'))
 
-# MENUITEMS = (('Archives', '/archives.html'),
-#              ('Categories', '/categories.html'),
-#              ('Tags', '/tags.html'),)
+MENUITEMS = (('Archives', '/archives.html'),
+             ('Categories', '/categories.html'),
+             ('Tags', '/tags.html'),)
 
 # Social widget
-SOCIAL = (('github', 'https://github.com/1200wd'),
-          ('bitcoinlib', 'http://bitcoinlib.readthedocs.io/en/latest/'),
-          ('rss', 'feeds/all.atom.xml'))
+SOCIAL = (('Github', 'https://github.com/1200wd'),
+          ('Twitter', 'https://twitter.com/coineva1200'),
+          ('RSS', 'feeds/all.atom.xml'))
 
 DEFAULT_PAGINATION = 10
 

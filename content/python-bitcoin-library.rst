@@ -2,7 +2,7 @@ Bitcoinlib
 ==========
 
 :date: 2017-06-01 14:36
-:modified: 2018-05-17 21:46
+:modified: 2018-12-27 21:28
 :tags: bitcoin, bitcoinlib, python, wallet, commandline wallet, transaction, keys
 :category: BitcoinLib
 :slug: python-bitcoin-library
@@ -54,7 +54,7 @@ Features
 Wallet
 ~~~~~~
 
-The bitcoin library contains a wallet implementation using sqlalchemy and sqllite3 to import, create and manage
+The Bitcoin library contains a wallet implementation using SQLAlchemy and SQLite to import, create and manage
 keys in a Hierarchical Deterministic way.
 
 Example: Create wallet and generate new address (key) to receive bitcoins
