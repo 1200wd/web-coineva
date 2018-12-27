@@ -13,4 +13,4 @@ git clone --recursive https://github.com/getpelican/pelican-plugins
 mkdir themes
 cd themes
 
-git clone https://github.com/1200wd/pelican-themes-tuxlite-tbs.git
+https://github.com/fle/pelican-sober.git

@@ -56,8 +56,9 @@ DEFAULT_PAGINATION = 10
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
-THEME = "themes/pelican-themes-tuxlite-tbs"
-SITESUBTITLES = ('Coineva- Cryptocurrency Code Factory')
+THEME = "themes/pelican-sober"
+PELICAN_SOBER_HOME_LISTS_ARTICLES = True
+# PELICAN_SOBER_ABOUT = "My name is Henkie"
 
 PLUGIN_PATHS = ['pelican-plugins']
 PLUGINS = [u"disqus_static"]
