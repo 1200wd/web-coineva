@@ -160,6 +160,8 @@ the wallet contains only 1 private key. So we need to copy the transaction to th
 
 Now on the other PC import this raw transaction and sign.
 
+.. code-block:: python-cli
+
     >>> t = Transaction.import_raw('010000000...etc...5d88ac00000000')
     >>> t.sign(key2)
     >>> t.verify()
@@ -184,6 +186,8 @@ Now on the other PC import this raw transaction and sign.
 The transaction input now has 2 signatures and is ready to send. You could copy-n-paste the raw transaction and send
 it with a service such as https://live.blockcypher.com/btc/pushtx/ or -when the PC is online- you can send it
 with BitcoinLib.
+
+.. code-block:: python-cli
 
     >>> from bitcoinlib.service import Service
     >>> Service().sendrawtransaction(t.raw())
