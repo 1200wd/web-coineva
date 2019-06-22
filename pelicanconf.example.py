@@ -10,7 +10,7 @@ SITENAME = u'Coineva - Cryptocurrency Code Factory'
 if socket.gethostname() == 'talisman':
     SITEURL = 'http://localhost:8000'
 else:
-    SITEURL = 'http://coineva.com'
+    SITEURL = 'https://coineva.com'
 SITETITLE = 'Coineva'
 SITESUBTITLE = 'Cryptocurrency Code Factory'
 SITEDESCRIPTION = 'bitcoin stuff'
