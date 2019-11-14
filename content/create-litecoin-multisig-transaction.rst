@@ -2,7 +2,7 @@ Create a Litecoin Multisig Transaction
 ======================================
 
 :date: 2018-05-23 10:11
-:modified: 2018-06-28 16:29
+:modified: 2019-11-14 22:55
 :tags: litecoin, multisig, bitcoinlib, commandline wallets, manual
 :category: BitcoinLib
 :slug: create-litecoin-multisig-transaction
@@ -33,30 +33,34 @@ First update your wallet and unspent transaction outputs:
 
 .. code-block:: bash
 
-    $ cli-wallet LitecoinMS-on -x
-    Command Line Wallet for BitcoinLib
+    $ clw LitecoinMS-on -x
+    Command Line Wallet - BitcoinLib 0.4.11
 
-    Updating wallet
     Wallet info for LitecoinMS-on
     === WALLET ===
-     ID                             25
+     ID                             39
      Name                           LitecoinMS-on
      Owner
-     Scheme                         multisig
-     Multisig Wallet IDs            26, 27, 28
+     Scheme                         bip32
+     Multisig                       True
+     Multisig Wallet IDs            40, 41, 42
+     Cosigner ID                    0
+     Witness type                   legacy
      Main network                   litecoin
+     Latest update                  2019-11-14 22:57:24.785464
 
-    = Multisig main keys =
-      221 m/45'/2'/0'                  LVcDqvm8wJ29KDZb4KUyi8jP2LYRbAbzry            LitecoinMS-on-cosigner-0
-      222 m/45'/2'/0'                  LPHQRc7pWM8kT1bxk1tSEFD69ms3zDwyev            LitecoinMS-on-cosigner-1
-      223 m                            LP5Rwvu4FVjiSThXssnN3nb4UYVi3N77vi            LitecoinMS-on-cosigner-2
+    = Multisig Public Master Keys =
+        0 261 Ltub2VECoJe5hBU8kNinfTfFsyPz5qfDMiFhPmmWi89yMBGJH9MtjZk6zmhcmvg8FXm3ZBDRibocbSfFzGaczfrUjWT4ZsXNhbCchwr48MZgXyS bip32  main     *
+        1 266 Ltub2UpT1zg3aS9mgDSoxF1KxXTFWQWJdySpgtQ8WMRX7pFX7BXfshnMjRP4LqApSVETddt6B9NBnjW4XqhWPprZXKfKk9oWEmUV8MsoVZ3EW5f bip32  cosigner
+        2 270 Ltub2V3tPynSv6pHv8tjXE3chMuDNybh1DmQXuKQ9bALUZ1Zw811u9PFS6QyEcKrC72PmK8rSyb1mv1mRHjTt22UrtmsP1hmrvTWz4vdPDZMUvR bip32  cosigner
+    For main keys a private master key is available in this wallet to sign transactions. * cosigner key for this wallet
 
     - NETWORK: litecoin -
     - - Keys
-      234 m/45'/2'/0'/0/0              3Pp8bBac8UGLAHtV7R1PtDwiEXw7HY6qpD            Multisig Key 233/232/230             0.03266639 LTC
+      280 m/45'/0/0/0                  MFvNqhAWJY58yjLAME5V6ppivh9iVJJ6TH            Multisig Key 276/265/279             0.03266639 LTC
 
     - - Transactions (Account 0, Ltub2SSUS19CirucWsPQ8ekikRQ5BKr3FiQBfPUHoW4p9LP9MT7ifG5HBJvR3kkowxFm8aXiMSXXgRQfZHVGQCDWyMnBvnsDUzMkKT9eBQnt1nk)
-      10 9a9b4c9c9decefd50b7f40c3a243bbd514a18958cda70aa4fe9f82e0726e4d2f   3Pp8bBac8UGLAHtV7R1PtDwiEXw7HY6qpD        1       3266639 U
+      10 9a9b4c9c9decefd50b7f40c3a243bbd514a18958cda70aa4fe9f82e0726e4d2f   MFvNqhAWJY58yjLAME5V6ppivh9iVJJ6TH        1       3266639 U
 
     = Balance Totals (includes unconfirmed) =
     litecoin             (Account 0)                0.03266639 LTC
@@ -66,7 +70,7 @@ to send 0.01 LTC to another address.
 
 .. code-block:: bash
 
-    $ cli-wallet LitecoinMS-on -t LgaczM5X63xd7QNnKrLjLK4rhrSQqfxuKv 1000000
+    $ clw LitecoinMS-on -t LgaczM5X63xd7QNnKrLjLK4rhrSQqfxuKv 1000000
     Command Line Wallet for BitcoinLib
 
     Transaction created
@@ -76,7 +80,7 @@ to send 0.01 LTC to another address.
     Status: new
     Verified: False
     Inputs
-    - 3Pp8bBac8UGLAHtV7R1PtDwiEXw7HY6qpD 3266639 9a9b4c9c9decefd50b7f40c3a243bbd514a18958cda70aa4fe9f82e0726e4d2f 0
+    - MFvNqhAWJY58yjLAME5V6ppivh9iVJJ6TH 3266639 9a9b4c9c9decefd50b7f40c3a243bbd514a18958cda70aa4fe9f82e0726e4d2f 0
       Script type: p2sh_multisig, signatures: 1 (2 of 3)
     Outputs
     - LgaczM5X63xd7QNnKrLjLK4rhrSQqfxuKv 1000000
@@ -88,7 +92,7 @@ to send 0.01 LTC to another address.
 
     Transaction created but not send yet. Transaction dictionary for export:
     {'fee': 57292,
-     'inputs': [{'address': '3Pp8bBac8UGLAHtV7R1PtDwiEXw7HY6qpD',
+     'inputs': [{'address': 'MFvNqhAWJY58yjLAME5V6ppivh9iVJJ6TH',
                  'output_n': 0,
                  'prev_hash': '9a9b4c9c9decefd50b7f40c3a243bbd514a18958cda70aa4fe9f82e0726e4d2f',
                  'signatures': [{'pub_key': '0364170e13312e6a2a867ce65e868a5539d53ed79017943f95059a2525fef5bb0f',
@@ -117,7 +121,7 @@ import the freshly transaction dictionary.
 
 .. code-block:: bash
 
-    $ cli-wallet LitecoinMS -a <path-to-usb-stick>/tx_dict.txt
+    $ clw LitecoinMS -a <path-to-usb-stick>/tx_dict.txt
     Command Line Wallet for BitcoinLib
 
     Transaction
@@ -126,7 +130,7 @@ import the freshly transaction dictionary.
     Status: new
     Verified: True
     Inputs
-    - 3Pp8bBac8UGLAHtV7R1PtDwiEXw7HY6qpD 3266639 9a9b4c9c9decefd50b7f40c3a243bbd514a18958cda70aa4fe9f82e0726e4d2f 0
+    - MFvNqhAWJY58yjLAME5V6ppivh9iVJJ6TH 3266639 9a9b4c9c9decefd50b7f40c3a243bbd514a18958cda70aa4fe9f82e0726e4d2f 0
       Script type: p2sh_multisig, signatures: 2 (2 of 3)
     Outputs
     - LgaczM5X63xd7QNnKrLjLK4rhrSQqfxuKv 1000000
@@ -137,7 +141,7 @@ import the freshly transaction dictionary.
     Wallet: LitecoinMS
     Signed transaction:
     {'fee': 57292,
-     'inputs': [{'address': '3Pp8bBac8UGLAHtV7R1PtDwiEXw7HY6qpD',
+     'inputs': [{'address': 'MFvNqhAWJY58yjLAME5V6ppivh9iVJJ6TH',
                  'output_n': 0,
                  'prev_hash': '9a9b4c9c9decefd50b7f40c3a243bbd514a18958cda70aa4fe9f82e0726e4d2f',
                  'signatures': [{'pub_key': '0364170e13312e6a2a867ce65e868a5539d53ed79017943f95059a2525fef5bb0f',
@@ -175,7 +179,7 @@ To broadcast your transaction to the network import the raw transaction and push
 
 .. code-block:: bash
 
-    $ cli-wallet LitecoinMS -p -i 01000000012f4d6e72e0829ffea40aa7cd5889a114d5bb43a2c3407f0bd5efec9d9c4c9b9a00000000fdfe000048304502210091ddefdd9b18e036b0fe930a395914522f189c812c40fbbfbfe0d9936e645bfb022064c29a3fb85f0fac6ae0debeff410aca8c310c339def1ffa0e47b63a68b89f1a01483045022100ed4f1c06fecc53df9b36dd54a79d5b8764f147fc5538f707df6c4a6afd3070390220419311e194d9e42984f8c4ec246f12e587b9f9e67caaf417ad51c7a23a6bf52e014c6952210364170e13312e6a2a867ce65e868a5539d53ed79017943f95059a2525fef5bb0f21038de68940ee5bf5c3004c940768155338f0fd404049ecd5760219e7386726b97f2103ddd8009546aa3300d97cd6d49be227be78095ac72b05af8fe77490fd2091ce3f53aeffffffff0240420f00000000001976a914ea4349b431766be64c1c5015afd865e267d77a6988ac43b621000000000017a914cd271b873341f5364c9eb0217b5255be25f11cf98700000000
+    $ clw LitecoinMS -p -i 01000000012f4d6e72e0829ffea40aa7cd5889a114d5bb43a2c3407f0bd5efec9d9c4c9b9a00000000fdfe000048304502210091ddefdd9b18e036b0fe930a395914522f189c812c40fbbfbfe0d9936e645bfb022064c29a3fb85f0fac6ae0debeff410aca8c310c339def1ffa0e47b63a68b89f1a01483045022100ed4f1c06fecc53df9b36dd54a79d5b8764f147fc5538f707df6c4a6afd3070390220419311e194d9e42984f8c4ec246f12e587b9f9e67caaf417ad51c7a23a6bf52e014c6952210364170e13312e6a2a867ce65e868a5539d53ed79017943f95059a2525fef5bb0f21038de68940ee5bf5c3004c940768155338f0fd404049ecd5760219e7386726b97f2103ddd8009546aa3300d97cd6d49be227be78095ac72b05af8fe77490fd2091ce3f53aeffffffff0240420f00000000001976a914ea4349b431766be64c1c5015afd865e267d77a6988ac43b621000000000017a914cd271b873341f5364c9eb0217b5255be25f11cf98700000000
 
 
 ..  == Restore wallet from backup

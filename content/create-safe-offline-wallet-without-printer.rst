@@ -65,7 +65,7 @@ Go to the tools directory of BitcoinLib, create a new wallet and generate an add
 
 .. code-block:: bash
 
-   cli-wallet mywallet-priv -u
+   clw mywallet-priv -u
 
 Type 'y' to create an new wallet and write down to passphrase to at least 2 pieces of paper as backup. You can
 recreate a wallet with one of these pieces of papers if you lose access to your PC/Laptop
@@ -73,7 +73,7 @@ recreate a wallet with one of these pieces of papers if you lose access to your 
 
 .. code-block:: bash
 
-   lennart@c:~$ cli-wallet mywallet-priv -u
+   lennart@c:~$ clw mywallet-priv -u
    Command Line Wallet for BitcoinLib
 
    Wallet mywallet-priv does not exist, create new wallet [yN]? y
@@ -136,7 +136,7 @@ option again to creates a couple of new keys / addresses.
 
 .. code-block:: bash
 
-   cli-wallet mywallet-pub -u -c xpub6CZhfzY66MTQFXuwMoKNUJWeBY152kPEFASoESfvgLj2SzeF7DZZN64UKv9foLNQ5STxyMEfWWXon6J7oVBFyw7nmDqpahWbWGF3HQkj9fp
+   clw mywallet-pub -u -c xpub6CZhfzY66MTQFXuwMoKNUJWeBY152kPEFASoESfvgLj2SzeF7DZZN64UKv9foLNQ5STxyMEfWWXon6J7oVBFyw7nmDqpahWbWGF3HQkj9fp
 
 A new wallet has been created and all key addresses should be the same.
 
@@ -153,17 +153,17 @@ Now send funds to a wallet's receive address. Show an available address with:
 
 .. code-block:: bash
 
-   cli-wallet mywallet-pub -r
+   clw mywallet-pub -r
 
 If you have installed the qrcodelib you can now scan the QR code with another online application to get the
 address so you can transfer funds to your wallet.
 
-Your wallet will be updated when you call cli-wallet without extra options. Once you have send the funds they
+Your wallet will be updated when you call clw without extra options. Once you have send the funds they
 should show on your online PC with:
 
 .. code-block:: bash
 
-   cli-wallet mywallet-pub -u
+   clw mywallet-pub -u
 
 
 Create and send a transaction
@@ -173,7 +173,7 @@ Now on create a transaction with your online wallet like this:
 
 .. code-block:: bash
 
-   lennart@c:~$ cli-wallet mywallet-pub -t 3LrXizKejCGYyGUxYzGweyuxFVtfs3odEe 100000
+   lennart@c:~$ clw mywallet-pub -t 3LrXizKejCGYyGUxYzGweyuxFVtfs3odEe 100000
    Command Line Wallet for BitcoinLib
 
    Transaction created
@@ -210,7 +210,7 @@ your offline PC for instance with the help of an USB stick.
 
 .. code-block:: bash
 
-   cli-wallet mywallet-priv -a <path-to-usb>/txdict.txt
+   clw mywallet-priv -a <path-to-usb>/txdict.txt
 
 The transaction will be imported and signed by the offline wallet and the transaction information is showed. Copy the
 raw transaction hash and save it to the USB stick.
@@ -219,7 +219,7 @@ To push the transaction to the network import the raw transaction on the online 
 
 .. code-block:: bash
 
-   cli-wallet mywallet-pub -i "0100000001e96eaac67f53106c3e56b41a3e1605744b60cb4eed7ef27ec89c1d38078f15db010000006b483045022100ed3681a573783a691f85311a5c4af6302742c331f049bf793b7d7eca30d2e60402201126c83895d1f3bd0f0e32a3d2e6fb2c22da11615e33282c7cb6d2b0de151505012102babad319637c497291a81ac53a84dd0485971303cc52ea635915640dc3cde097ffffffff02a08601000000000017a914d237028e93ddb5e063c5f47685557e7b7265549e8772b40000000000001976a914162768737af6846894ec022692825c1e714f21de88ac00000000" -p
+   clw mywallet-pub -i "0100000001e96eaac67f53106c3e56b41a3e1605744b60cb4eed7ef27ec89c1d38078f15db010000006b483045022100ed3681a573783a691f85311a5c4af6302742c331f049bf793b7d7eca30d2e60402201126c83895d1f3bd0f0e32a3d2e6fb2c22da11615e33282c7cb6d2b0de151505012102babad319637c497291a81ac53a84dd0485971303cc52ea635915640dc3cde097ffffffff02a08601000000000017a914d237028e93ddb5e063c5f47685557e7b7265549e8772b40000000000001976a914162768737af6846894ec022692825c1e714f21de88ac00000000" -p
 
 And if transaction is successfully pushed you will receive a message like this:
 

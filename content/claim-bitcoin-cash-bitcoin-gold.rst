@@ -140,7 +140,7 @@ is probably not a very secure device. Or you can transfer them to another wallet
    :alt: Add Bitcoin Gold to Coinomi
    :align: center
 
-Coinomi also has the option to exhange coins within the same wallet. For instance to exchange from
+Coinomi also has the option to exchange coins within the same wallet. For instance to exchange from
 Bitcoin Cash to Bitcoin: open your Bitcoin Cash page and select 'ShapeShift' from the left menu.
 You can now choose how many funds you would like to exchange, select 'Next' and enter your password
 to proceed. Now your funds will be send to ShapeShift in the background and - this is a bit scary -
