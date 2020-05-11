@@ -20,9 +20,9 @@ from old wallets.
 But if you still remember a couple of addresses you can recreate the wallet and all of its transactions with
 `Python Bitcoin library <{filename}/python-bitcoin-library.rst>`_ by creating a new readonly wallet.
 
-.. image:: /images/bitcoin-tax.png
+.. image:: /images/Aleutianwallet.gif
    :width: 824px
-   :alt: Pay bitcoin taxes!
+   :alt: Ancient wallet - source Wikipedia
    :align: center
 
 
