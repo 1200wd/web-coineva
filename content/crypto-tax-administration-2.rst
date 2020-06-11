@@ -2,7 +2,7 @@ Crypto Administration 2 - Recreate old wallets
 ==============================================
 
 :date: 2020-05-11 09:20
-:modified: 2020-05-11 09:20
+:modified: 2020-06-11 09:48
 :tags: tax, administration, cryptocurrency, recreate, wallets, bitcoinlib, bitcoin, cryptalyse
 :category: BitcoinLib
 :slug: crypto-tax-administration-2-recreate-old-wallets
@@ -13,8 +13,8 @@ Crypto Administration 2 - Recreate old wallets
 
 .. :slug: crypto-tax-administration-2-recreate-old-wallets:
 
-It's much easier to create a new cryptocurrency wallet then opening a bank account, so it can happen you have
-created a lot of wallets during your bitcoin career. And as a logical result you might miss some information
+It's much easier to create a new cryptocurrency wallet than opening a bank account, so it can happen, you have
+created a lot of wallets during your bitcoin career. And as a logical result, you might miss some information
 from old wallets.
 
 But if you still remember a couple of addresses you can recreate the wallet and all of its transactions with
@@ -36,7 +36,7 @@ Install Cryptalyse to allow to analyse, reconstruct and export wallets with Bitc
     $ git clone https://github.com/1200wd/cryptalyse.git
 
 Cryptalyse contains a class CryptalyseWallet based on the HDWallet class from Bitcoinlib with some extra helper methods.
-This class adds a clusters() and inputs_correlated() method which looks for correlated inputs. For instance if
+This class adds a clusters() and inputs_correlated() method which looks for correlated inputs. For instance, if
 a transaction contains 2 or more inputs, you can assume those inputs are created by the same person and the used
 addresses belong to the same wallet.
 
@@ -55,7 +55,7 @@ with the first address.
     >>> from cryptalyse.cryptalyse import CryptalyseWallet
     >>> w = CryptalyseWallet.create('reconstructed', 'tb1qe7h6l8sg7nf8z0rz6a4kfgavatjjac5qardt5z')
 
-If you now update the wallet you can see it found 2 transactions with this address.
+If you now update the wallet, you can see it found 2 transactions with this address.
 
 .. code-block:: python
 

@@ -25,7 +25,7 @@ to scan the Private key from your paper wallet.
    :alt: Scan private key with Mycelium from 'cold storage'
    :align: center
 
-Now you are ready to create the transaction. Be sure to select an address from you own wallet.
+Now you are ready to create the transaction. Be sure to select an address from your own wallet.
 You should see a warning: You are sending a payment to your own address.
 
 .. image:: /images/mycelium-create-transaction.png
@@ -34,7 +34,7 @@ You should see a warning: You are sending a payment to your own address.
    :align: center
 
 It is advised to take all the bitcoins of the paper wallet in one transaction. To do
-this click on the keyboard and select 'max'. In case you are not in a hurry you can
+this click on the keyboard and select 'max'. In case you are not in a hurry, you can
 select 'low-prio' from the miner fee selection.
 
 .. image:: /images/mycelium-create-transaction-max-amount.png

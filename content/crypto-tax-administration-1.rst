@@ -2,7 +2,7 @@ Crypto Administration Part 1
 ============================
 
 :date: 2019-11-19 21:16
-:modified: 2019-11-19 23:15
+:modified: 2020-06-11 09:49
 :tags: tax, administration, crypto, cryptocurrency, wallets, bitcoinlib, bitcoin
 :category: BitcoinLib
 :slug: crypto-tax-administration-1
@@ -14,8 +14,8 @@ Crypto Administration Part 1
 .. :slug: crypto-tax-administration-1:
 
 When you are using cryptocurrency, no matter in what jurisdiction you're in, sooner or later you will have to set up
-a decent administration to comply with your tax obligations. Unfortunately not a lot of accounting software supports crypto.
-And furthermore most exchanges and wallets miss basic overviews and export functionality.
+a decent administration to comply with your tax obligations. Unfortunately, not a lot of accounting software supports crypto.
+And furthermore, most exchanges and wallets miss basic overviews and export functionality.
 
 With some help of the `Python Bitcoin library <{filename}/python-bitcoin-library.rst>`_ I will show some tricks
 to help you set up a crypto administration. In this article we write some code to export wallets and transactions.
@@ -41,7 +41,7 @@ network.
     w.scan(scan_gap_limit=1)
     w.info()
 
-This will setup the wallet, generate keys and download transactions from various bitcoin service providers. The
+This will set up the wallet, generate keys and download transactions from various bitcoin service providers. The
 wallet's info() method shows the addresses and transactions.
 
 .. code-block:: python
@@ -102,7 +102,7 @@ wallet's info() method shows the addresses and transactions.
     = Balance Totals (includes unconfirmed) =
     testnet              (Account 0)               0.00414823 TBTC
 
-Now the only thing left to do is export the transactions, for example in CSV format.
+Now the only thing left to do is to export the transactions. For example in CSV format.
 
 
 Export transactions
@@ -147,7 +147,7 @@ This creates a list of comma separated fields with the transaction info of your 
     out,d3f512ad2ee829cdb8365adfee8afe73700dd2be8706b5542de302bab448df4f,2019-11-19 16:50:01,:286279,2NGZrVvZG92qGYqzTLjCAewvPZ7JE8S8VxE
     out,5714845c10f0cdf4f4767ebb5b00a05fc8428d4c1a35c4f2f11779353193a8f3,2019-11-19 16:51:31,:16375,mv4rnyY3Su5gjcDNzbMLKBQkBicCtHUtFB
 
-You can now easily import this CSV data into a spreadsheet or your administration software.
+You can now easily import this CSV data into a spreadsheet or into your administration software.
 
 
 Export transactions - add cumulative info
