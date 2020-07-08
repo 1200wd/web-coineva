@@ -93,8 +93,7 @@ reduces network traffic for SPV client and increased multisig safety among other
 It took a long time and lot of discussions before Segwit got adopted as you can see below. For some reason
 the discussion got really political and a lot of virtual mud was slinging around. Some even called it
 `bitcoin civil war <https://www.google.com/search?q=bitcoin+civil+war>`_. The debate was roughly between people
-who oppose segwit and wanted to increase the block size and people who want to introduce Segwit, of which a small part
-was increasing block capacity.
+who oppose segwit and wanted to increase the block size and people who want Segwit without block size incread.
 
 After a while as a compromise `BIP0091 <https://en.bitcoin.it/wiki/BIP_0091>`_ or Reduced threshold Segwit MASF was
 created in which miners and bitcoin companies declared to activate Segwit and increase the block size to 2Mb. As you
