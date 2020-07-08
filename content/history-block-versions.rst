@@ -74,7 +74,7 @@ the CHECKSEQUENCEVERIFY opcode.
 
 .. image:: /images/block_version_history_400000_430000.png
    :width: 1600px
-   :alt: Block version history block 400000 to 430000
+   :alt: BIP9 and BIP68 - Block version history
    :align: center
 
 In the graph above you also see the BIP0109 proposal in the 5% region, it was a more controversial proposal
@@ -95,13 +95,18 @@ the discussion got really political and a lot of virtual mud was slinging around
 `bitcoin civil war <https://www.google.com/search?q=bitcoin+civil+war>`_. The debate was roughly between people
 who oppose segwit and wanted to increase the block size and people who want Segwit without block size incread.
 
-After a while as a compromise `BIP0091 <https://en.bitcoin.it/wiki/BIP_0091>`_ or Reduced threshold Segwit MASF was
-created in which miners and bitcoin companies declared to activate Segwit and increase the block size to 2Mb. As you
-can see in the graph below Segwit was activated shortly afterwards.
-
 .. image:: /images/block_version_history_430000_500000.png
    :width: 1600px
-   :alt: Block version history block 430000 to 500000
+   :alt: Segwit adoption - Block version history
+   :align: center
+
+After a while as a compromise `BIP0091 <https://en.bitcoin.it/wiki/BIP_0091>`_ or Reduced threshold Segwit MASF was
+created in which miners and bitcoin companies declared to activate Segwit and increase the block size to 2Mb. As you
+can see in the graph below Segwit was activated shortly BIP91 was accepted.
+
+.. image:: /images/block_version_history_475000_478000.png
+   :width: 1600px
+   :alt: BIP91 Segwit2Mb - Block version history
    :align: center
 
 
