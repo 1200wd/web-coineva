@@ -2,7 +2,7 @@
 
 WEBSITEDIR='/var/www/web-coineva'
 
-source /root/.virtualenvs/web1200/bin/activate
+source /var/www/web-coineva/.virtualenvs/web-coineva/bin/activate
 
 cd $WEBSITEDIR
 git pull
