@@ -73,3 +73,5 @@ themes/
 update.local.sh
 pelican-plugins/
 pelicanconf.py
+
+.venv
