@@ -2,7 +2,7 @@
 
 WEBSITEDIR='/var/www/web-coineva'
 
-source /var/www/web-coineva/.virtualenvs/web-coineva/bin/activate
+source /var/www/web-coineva/venv/bin/activate
 
 cd $WEBSITEDIR
 git pull

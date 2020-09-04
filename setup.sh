@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 
 # Create virtual environment
-virtualenv ~/.virtualenvs/web1200
+python3 -m venv venv
 
 # Install required python modules
-~/.virtualenvs/web1200/bin/pip install pelican markdown disqus-python
+venv/bin/pip3 install pelican markdown disqus-python
 
 cp update.sh update.local.sh
 
