@@ -72,6 +72,7 @@ content/generated/
 themes/
 update.local.sh
 pelican-plugins/
+pelican-sober/
 pelicanconf.py
 
 venv
