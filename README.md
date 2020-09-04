@@ -15,7 +15,10 @@ $ setup.py
 
 ## Usage
 
-Generate content in 'content' directory with
+Create a local config file and adapt to your needs
+ cp pelicanconf.example.py pelicanconf.py
+ nano pelicanconf.py
 
+Generate content in 'content' directory with
  pelican content
  
