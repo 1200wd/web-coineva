@@ -8,4 +8,4 @@ cd $WEBSITEDIR
 git pull
 rm -r output/*
 pelican content
-chown -R root:www-data $WEBSITEDIR
+chown -R root:www-data $WEBSITEDIR/output
