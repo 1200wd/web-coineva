@@ -2,7 +2,7 @@ Install Bcoin node on Ubuntu 20.04
 ==================================
 
 :date: 2020-09-17 09:11
-:modified: 2020-09-18 09:47
+:modified: 2020-10-16 11:46
 :tags: bcoin, bitcoin, node, bitcoinlib
 :category: Nodes
 :slug: install-bcoin-node-ubuntu
@@ -20,6 +20,7 @@ This makes it possible to query the node for transactions or UTXO's of a specifi
 can make use of the Bcoin node so it can run locally and doesn't need external blockchain services. The
 `Blocksmurfer explorer <https://blocksmurfer.io>`_ uses a Bcoin node to query for blocks, transactions and
 address data.
+
 
 Install and build Bcoin
 -----------------------
@@ -68,7 +69,28 @@ Let's test it!
     $ ./bin/bcoin
 
 It should now start downloading and parsing blocks. Press Ctrl-C to stop downloading so we can change some settings
-first. Go to the newly create .bcoin directory in the home folder and create a bcoin.conf file.
+first.
+
+
+Bcoin Setup
+-----------
+
+[OPTIONAL] Setup SSL and create private key and certificate.
+
+.. code-block:: bash
+
+    $ cd
+    $ cd .bcoin
+    $ mkdir ssl
+    $ openssl req -newkey rsa:2048 -new -nodes -x509 -days 3650 -keyout privkey.pem -out cert.pem
+
+[OPTIONAL] Setup firewall. Depends of course on the system and firewall you are using.
+
+.. code-block:: bash
+
+    $ sudo ufw allow 28332
+
+Go to the newly create .bcoin directory in the home folder and create a bcoin.conf file.
 
 .. code-block:: bash
 
@@ -108,9 +130,9 @@ https://github.com/bcoin-org/bcoin/blob/master/docs/configuration.md
     api-key: replace-with-long-and-random-api-key
 
     # Use SSL
-    #ssl: true
-    #ssl-cert: @/ssl/cert1.pem
-    #ssl-key: @/ssl/privkey1.pem
+    ssl: true
+    ssl-cert: @/ssl/cert.pem
+    ssl-key: @/ssl/privkey.pem
 
 Now test again and see if 'txindexer' and 'addrindexer' show up in the logs. Abort with Ctrl-C
 
