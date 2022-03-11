@@ -82,6 +82,7 @@ Bcoin Setup
     $ cd
     $ cd .bcoin
     $ mkdir ssl
+    $ cd ssl
     $ openssl req -newkey rsa:2048 -new -nodes -x509 -days 3650 -keyout privkey.pem -out cert.pem
 
 [OPTIONAL] Setup firewall. Depends of course on the system and firewall you are using.
