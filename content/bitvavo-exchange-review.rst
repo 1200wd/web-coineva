@@ -13,7 +13,7 @@ Bitvavo Review
 
 .. :slug: bitvavo-exchange-review:
 
-.. image:: /images/bitvavo_logo.png
+.. image:: /images/bitvavo-logo.png
    :width: 167px
    :alt: Bitvavo logo
    :align: right
