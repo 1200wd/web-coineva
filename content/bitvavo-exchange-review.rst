@@ -33,6 +33,9 @@ the same documents. Also it took weeks before receiving an answer sometimes.
 
 Bitvavo support does not have a phone number or other contact options and is only reachable by email.
 
+When logging in you have to enter your logging details twice, you have to enter them again after you verified a new
+device. This probably has to do something with my cookie settings. Not a huge problem, but a little bit annoying.
+
 The website itself is nice and professional. You can easily manage and trade your assets on the website and for more
 advanced trading they have a professional trading environment. The trading volume is large enough so you can trade
 quickly for normal markets rates.
