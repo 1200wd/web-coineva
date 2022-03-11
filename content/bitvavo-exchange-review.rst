@@ -13,17 +13,17 @@ Bitvavo Review
 
 .. :slug: bitvavo-exchange-review:
 
+.. image:: /images/bitvavo_logo.png
+   :width: 167px
+   :alt: Bitvavo logo
+   :align: right
+
 Bitvavo is one of the largest Dutch bitcoin exchanges. The company is based in Amsterdam and founded in 2017.
 
 They offer storage, staking and trading of Bitcoin any many other cryptocurrencies.
 
 Review
 ------
-
-.. image:: /images/bitvavo_logo.png
-   :width: 334px
-   :alt: Bitvavo logo
-   :align: right
 
 Unfortunately the first impression wasn't very good. It took me over a month to open an account.
 
@@ -36,6 +36,11 @@ Bitvavo support does not have a phone number or other contact options and is onl
 The website itself is nice and professional. You can easily manage and trade your assets on the website and for more
 advanced trading they have a professional trading environment. The trading volume is large enough so you can trade
 quickly for normal markets rates.
+
+.. image:: /images/bitvavo-advanced-trading.png
+   :width: 800px
+   :alt: Bitvavo logo
+   :align: center
 
 Bitvavo pays out daily staking rewards, at this moment around 0.77% for Bitcoin, which is really nice.
 
