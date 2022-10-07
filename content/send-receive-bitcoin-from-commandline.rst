@@ -20,7 +20,7 @@ Send and Receive Bitcoin from Commandline
 
 Sometimes you just need a simple or temporary wallet to send and receive crypto. In the example below we create a wallet and send bitcoiins with single line python commands. No need for complex software installation or time consuming backup procedures.
 
-Make sure `Python BitcoinLib <{filename}/python-bitcoin-library.rst>`_ is installed before you start.
+Make sure `Python BitcoinLib <https://bitcoinlib.readthedocs.io/en/latest/source/_static/manuals.install.html>`_ is installed before you start.
 
 .. code-block:: bash
 
