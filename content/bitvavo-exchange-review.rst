@@ -38,7 +38,7 @@ device. This probably has to do something with my cookie settings. Not a huge pr
 
 The website itself is nice and professional. You can easily manage and trade your assets on the website and for more
 advanced trading they have a professional trading environment. The trading volume is large enough so you can trade
-quickly for normal markets rates.
+quickly for normal market rates.
 
 .. image:: /images/bitvavo-advanced-trading.png
    :width: 800px
