@@ -96,16 +96,20 @@ The puzzle script looks like this:
 
     OP_2DUP OP_EQUAL OP_NOT OP_VERIFY OP_SHA1 OP_SWAP OP_SHA1 OP_EQUAL
 
-This scripts duplicates 2 sets of data (OP_DUP2) and then tests if they are not equal (OP_EQUAL OP_NOT OP_VERIFY).
-It hashes the first script with SHA1 (OP_SHA1) and then it swaps the hash and the other script on the stack and hashes the other data item (OP_SWAP OP_SHA1). Finally it checks if the 2 hashes are equal, and if they are you have found a collision.
+This script:
+
+* Duplicates 2 sets of data (OP_DUP2) and then tests if they are not equal (OP_EQUAL OP_NOT OP_VERIFY)
+* It hashes the first script with SHA1 (OP_SHA1)
+* and then it swaps the hash and the other script on the stack and hashes the other data item (OP_SWAP OP_SHA1)
+* Finally it checks if the 2 hashes are equal, and if they are you have found a collision
 
 
 Collision found!
 ----------------
 
 On 13 february 2017 the SHA-1 hashing algorithm could be considered broken as a hash collision was found, and
-the total reward of 2.48 bitcoin was claimed transaction 8d31992805518fd62daa3bdd2a5c4fd2cd3054c9b3dca1d78055e9528cff6adc ` <https://blocksmurfer.io/btc/transaction/8d31992805518fd62daa3bdd2a5c4fd2cd3054c9b3dca1d78055e9528cff6adc>`_
+the total reward of 2.48 bitcoin was claimed transaction  `8d31992805518fd62daa3bdd2a5c4fd2cd3054c9b3dca1d78055e9528cff6adc <https://blocksmurfer.io/btc/transaction/8d31992805518fd62daa3bdd2a5c4fd2cd3054c9b3dca1d78055e9528cff6adc>`_
 
-Fortunately the SHA-256, RIPEMD-160 and other bounties where not claimed and no hash collisions has been found,
+Fortunately the SHA-256, RIPEMD-160 and other bounties where not claimed and no hash collisions have been found,
 otherwise we and Bitcoin would be in great trouble.
 
