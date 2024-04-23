@@ -9,7 +9,6 @@ Fascinating Bitcoin Transactions Part 1 - Reward to Attack Hashing Algorithms
 :authors: Lennart Jongeneel
 :summary: Fascinating Bitcoin Transactions Part 1: Get rewarded to crack widely used cryptographic algorithms such as SHA1, SHA256 or RIPEMD160
 :language: en
-:status: draft
 
 .. :slug: fascinating-bitcoin-transactions-part-1:
 
