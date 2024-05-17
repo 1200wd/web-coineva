@@ -5,7 +5,7 @@ Bitcoinlib and Multiple Bitcoin Core Wallets
 :modified: 2024-05-17 17:34
 :tags: bitcoin, bitcoin node, bitcoind, bitcoinlib, wallets
 :category: BitcoinLib
-:slug: fascinating-bitcoin-transactions-part-1
+:slug: bitcoinlib-and-multiple-bitcoin-core-wallets
 :authors: Lennart Jongeneel
 :summary: In this short guide we explain how to connect Bitcoinlib to multiple Bitcoin Core wallets. The private keys are stored and managed by Bitcoin Core and the wallet is managed with BitcoinLib, which makes it a powerful combinations.
 :language: en
