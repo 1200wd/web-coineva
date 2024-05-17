@@ -12,6 +12,11 @@ Fascinating Bitcoin Transactions Part 1 - Reward to Attack Hashing Algorithms
 
 .. :slug: fascinating-bitcoin-transactions-part-1:
 
+.. image:: /images/attack-algorithms.jpg
+   :width: 1152px
+   :alt: Algorithm attack monsters
+   :align: center
+
 In 2013 Peter Todd `offered rewards <https://bitcointalk.org/index.php?topic=293382.0>`_
 for anyone who could demonstrate hash collisions in some widely used hashing algorithms.
 
