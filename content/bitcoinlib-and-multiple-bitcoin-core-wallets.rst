@@ -12,12 +12,12 @@ Bitcoinlib and Multiple Bitcoin Core Wallets
 
 .. :slug: bitcoinlib-and-multiple-bitcoin-core-wallets:
 
-In this guide we explain how to manage multiple Bitcoin Core wallets with Bitcoinlib. Bitcoin Core contains the wallets with the main private keys. And Bitcoinlib connect to those wallets and manages everything, creating some nice possibilities. The Bitcoin Core node is connected to other nodes and thus the Blockchain, so you are not dependant on third party service providers, which makes this a safe, reliable and fast setup.
-
 .. image:: /images/bitcoinlib-manage-bitcoincore-wallets2.jpg
    :width: 1152px
    :alt: Multiple Bitcoin Wallet - text2img deepai generated
    :align: center
+
+In this guide we explain how to manage multiple Bitcoin Core wallets with Bitcoinlib. Bitcoin Core contains the wallets with the main private keys. And Bitcoinlib connect to those wallets and manages everything, creating some nice possibilities. The Bitcoin Core node is connected to other nodes and thus the Blockchain, so you are not dependant on third party service providers, which makes this a safe, reliable and fast setup.
 
 
 The Setup
@@ -91,6 +91,9 @@ The last step is to create the wallets in Bitcoinlib. To do so copy the public m
 Also be sure to use the same wallet name in Python as in Bitcoin Core. If your provider.json file contains more then
 the link to your Bitcoin node you need to specify the use of bitcoind, or else it will result in a lot of incorrect
 requests to other service providers.
+
+This code show how to connect the first wallet, the code is the same for the second wallet (with the correct key and
+wallet name of course). You can add and connect as many wallets as you like.
 
 .. code-block:: python
 
