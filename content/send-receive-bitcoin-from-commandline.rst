@@ -234,5 +234,3 @@ When the transactions are done and we are finished we can empty the wallet and s
     testnet              (Account 0)               0.00000000 TBTC
 
 And it is empty!
-
-Check `Python BitcoinLib <{filename}/python-bitcoin-library.rst>`_ for more about the bitcoin library.
