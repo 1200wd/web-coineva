@@ -150,7 +150,7 @@ Make sure to replace <server> with you servername. Priority is set to 20 so this
 
 For a simple test do
 
-.. code-block:: json
+.. code-block:: python
 
  >>> from bitcoinlib.services.services import Service
  >>> srv = Service(providers=['blockbook'])
