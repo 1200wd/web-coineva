@@ -88,6 +88,14 @@ you can continue installing the Blockbook package.
 .. code-block:: bash
 
  $ apt install ./<blockbook package> (e.g., apt install ./blockbook-bitcoin_0.0.6_amd64.deb)
+
+If you run the Blockbook server on your local network, you can remove the -certfile option from the systemctl deamon.
+Also you could add the workers option to avoid memory problems, see next paragraph.
+
+.. code-block:: bash
+
+ $ sudo nano /lib/systemd/system/blockbook-bitcoin.service
+ $ sudo systemctl daemon-reload
  $ systemctl start blockbook-bitcoin.service
 
 Make sure to open port 9130 if you are using a firewall. Blockbook start synchronising with the blockchain and
@@ -141,7 +149,7 @@ Make sure to replace <server> with you servername. Priority is set to 20 so this
     "network": "bitcoin",
     "client_class": "BlockbookClient",
     "provider_coin_id": "",
-    "url": "https://<servername>:9130/",
+    "url": "http://<servername>:9130/api/v2/",
     "api_key": "",
     "priority": 20,
     "denominator": 100000000,
