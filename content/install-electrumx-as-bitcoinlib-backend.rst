@@ -23,7 +23,7 @@ This article provides setup instructions for ElectrumX. ElectrumX is commonly us
 Electrum wallet, but can also be used for Bitcoinlib.
 
 ElectrumX is an active project and is writen in pure Python. It uses a full Bitcoin core node as backend and adds a
-leveldb or rocksdb database with address, utxo, mempool and block information. It allow Bitcoinlib to make fast, local and private queries to update wallet, block and transaction information.
+leveldb or rocksdb database with address, utxo, mempool and block information. It allows Bitcoinlib to make fast, local and private queries to update wallet, address and transaction information.
 
 Bitcoinlib connects to ElectrumX with asynchronous RPC calls which make if fast and reliable. ElectrumX is normally
 used as wallet backend so it cannot receive or parse blocks and might have trouble with large or non-standard transactions.
@@ -90,9 +90,6 @@ to be able to retrieve very large transactions.
     MAX_SEND = 5000000
     SERVICES=tcp://:50001
 
-
-.. code-block:: bash
-
 Now logout the electrumx user and create a Systemd service with the following content
 
 .. code-block:: text
@@ -143,6 +140,11 @@ ElectrumX is ready to query after the blockchain is fully scanned and indexed, w
 First make sure to install the aoirpcx package so bitcoinlib can connect to your ElectrumX server more reliable
 and make queries much faster. The library works without aiorpcx but is about 20 times slower and can give timeout or
 errors when making larger or consecutive queries.
+
+.. code-block:: bash
+
+    $ # Make sure to run this command in your Bitcoinlib environment
+    $ python -m pip install aiorpcx
 
 When the server is running you can connect it to Bitcoinlib by adding the following json to ~/.bitcoinlib/providers.json. Make sure to replace localhost with you servername if applicable.
 
