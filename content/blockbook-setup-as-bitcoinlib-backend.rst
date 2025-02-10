@@ -2,7 +2,7 @@ Setup Blockbook as Backend for Bitcoinlib
 =========================================
 
 :date: 2024-10-15 09:12
-:modified: 2024-10-15 09:34
+:modified: 2025-02-10 16:48
 :tags: blockbook, trezor, bitcoin, bitcoin node, bitcoind, bitcoinlib
 :category: BitcoinLib
 :slug: blockbook-setup-as-bitcoinlib-backend
@@ -133,8 +133,8 @@ https://github.com/trezor/blockbook/issues/89
     $ sudo systemctl start blockbook-bitcoin.service
 
 
-Connect to Bitcoinib
---------------------
+Connect to Bitcoinlib
+---------------------
 
 Install Bitcoinlib using instruction from https://bitcoinlib.readthedocs.io/en/latest/source/_static/manuals.install.html
 The Blockbook api only works if it is fully synchronised, you can check the status.
