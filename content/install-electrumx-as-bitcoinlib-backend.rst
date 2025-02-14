@@ -88,7 +88,7 @@ to be able to retrieve very large transactions.
     MAX_SESSIONS = 500
     INITIAL_CONCURRENT = 50
     MAX_SEND = 5000000
-    SERVICES=tcp://:50001
+    SERVICES=tcp://:50001,rpc://0.0.0.0:8000
 
 Now logout the electrumx user and create a Systemd service with the following content
 
@@ -175,3 +175,38 @@ For a simple test call the blockcount method
 
 If you check in ~/.bitcoinlib/bitcoinlib.log you should see your own ElectrumX node is being queried and used as
 Service provider.
+
+
+Other coins and networks
+========================
+
+ElectrumX support a wide variety of coins and networks such as Bitcoin testnet3, testnet4, signet and regtest network.
+And other coins such as Litecoin, Dogecoin and Dash.
+
+The setup is similar as above, so you first need a running core node. Then you need to use the correct ports. You can run multiple instances of ElectrumX at the same time, but make sure you use different ports.
+
+For instance to setup for testnet4, change this line in the systemd file:
+
+.. code-block:: bash
+
+    ExecStart=/home/electrumx/.virtualenv/electrumx/bin/python3 /home/electrumx/electrumx/electrumx_server --testnet4
+
+The configuration should look like this. With other ports, a seperate directory for the database
+
+.. code-block:: text
+
+    DAEMON_URL=http://rpcuser:rpcpass@servername:18029
+    COIN=Bitcoin
+    DB_DIRECTORY=/home/electrumx/db_testnet4
+    ELECTRUMX=/home/electrumx/electrumx/electrumx_server
+    NET=testnet4
+    USERNAME=electrumx
+
+    # Bitcoinlib specific settings
+    CACHE_MB=1800
+    MAX_SESSIONS = 500
+    INITIAL_CONCURRENT = 50
+    MAX_SEND = 5000000
+    SERVICES=tcp://:50201,rpc://0.0.0.0:8200
+
+
